@@ -33,7 +33,6 @@ output:
     reveal_options:
       chalkboard:
         theme: chalkboard
-        color: ['rgba(255, 255, 153)'] 
         toggleNotesButton: true
       menu:
         numbers: true
