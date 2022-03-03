@@ -14,7 +14,6 @@ bibliography: BibliografiaApresentacao.bib
 transition: rotate
 output: 
   revealjs::revealjs_presentation:
-      
     incremental: true
     css: styles.css
     fig_caption: true
@@ -33,13 +32,11 @@ output:
       - menu
     reveal_options:
       chalkboard:
-        theme: chalkboard  
+        theme: chalkboard
+        color: ['rgba(255, 255, 153)'] 
         toggleNotesButton: true
-        menu:
-          numbers: true
-editor_options: 
-  markdown: 
-    wrap: 72
+      menu:
+        numbers: true
 ---
 
 ## Importante {.texto .posicao}
