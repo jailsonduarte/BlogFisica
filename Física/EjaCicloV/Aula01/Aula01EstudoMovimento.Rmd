@@ -1,0 +1,157 @@
+---
+title: |
+  <a id="home" href="../../../index.html"><img class="logo" src="logo//logo.jpg"  alt="Home"></a>
+        <br>
+   <small>Química 1ª Série</small>
+   <br>
+  <small>Aula 01: Introdução ao Estudo dos Movimentos </small>
+author: "Jailson Duarte <br>" 
+date: "`r format(Sys.time(), '%d %B de %Y')`"
+encoding: UTF-8
+lang: pt-BR
+csl: ReferenciasABNT.csl
+bibliography: BibliografiaApresentacao.bib
+transition: rotate
+output: 
+  revealjs::revealjs_presentation:
+    
+    incremental: true
+    css: styles.css
+    fig_caption: true
+    self_contained: false
+    center: true
+    slideNumber: true
+    slide_level: 3
+    toc: true
+    mathjax: local
+    includes:
+      in_header: header.html
+    reveal_plugins: 
+      - zoom
+      - notes
+      - chalkboard
+      - menu
+    reveal_options:
+      chalkboard:
+        theme: chalkboard  
+        toggleNotesButton: true
+        menu:
+          numbers: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## Importante {.texto .posicao}
+
+O conteúdo desta Aula foi elaborado com base no Livro:
+
+![Documento R Markdown](Figuras//livro1.jpg){width="40%"}
+
+## Introdução ao Estudo dos Movimentos {.texto .posicao}
+
+-   Uma das ações mais comuns realizadas pelos seres humanos é a prática esportiva,
+e relacionada a ela, seja caminhando, seja andando de bicicleta (Fig. 3.1), está o movimento;
+
+-  Neste Tema vamos estudar, em detalhes, como o movimento ocorre, mas sem nos preocuparmos com suas causas, que é campo de estudo da **Cinemática**; 
+
+
+## Conceitos Iniciais do Estudo dos Movimentos {.texto}
+
+- **Movel:** qualquer corpo, como uma bola, uma pessoa, um carro, um avião, ou mesmo o Sol ou a Lua, é denominado móvel.
+
+- **Referencial:** é o corpo em relação ao qual observamos se há, ou não, movimento. Se a posição do movel varia, dizemos que há **Movimento**. Se a posição não varia, dizemos que o móvel está em **Repouso**.
+
+
+- **Espaço:** Para descrever um movimento, precisamos conhecer a posição do móvel em cada instante.
+
+
+
+## Corpo extenso e ponto material {.texto}
+
+
+-   ![](Figuras//bike.jpg){width="40%"} 
+
+- As dimensões da bicicleta devem 
+ser levadas em conta; ela é, então, um **corpo extenso**;
+
+
+## Corpo extenso e ponto material {.texto}
+
+
+-   ![](Figuras//bike2.jpg){width="40%"} 
+
+- Considerando o caminho percorrido, o tamanho da bicicleta se torna desprezível e, 
+nesse caso, ela é um **ponto material**.
+
+
+
+## Trajetória {.texto}
+
+-   ![](Figuras//trajetoria.jpg){width="40%"} A Corrida Internacional de São Silvestre, que ocorre na cidade de São Paulo.  Na Figura  podemos ver o percurso de 15 km dessa corrida. Estamos representando a **trajetória**; 
+
+
+## Deslocamento, velocidade e aceleração {.texto}
+
+-   A Figura mostra um ciclista deslocando-se do ponto A em direção ao ponto B. Ao chegar ao ponto B, ela para e descansa para depois continuar e chegar ao ponto C. O percurso total demora duas horas e meia e, para ir de A a B, ela demora uma hora.
+
+![](Figuras///ciclista.jpg){width="100%"}
+
+
+## Deslocamento, velocidade e aceleração {.texto}
+
+-   Com base no percurso da ciclista, podemos definir variáveis que descrevem o movimento, con- 
+forme mostra a Tabela
+
+- ![](Figuras///tab1.jpg){width="100%"}
+
+## Deslocamento, velocidade e aceleração {.texto}
+
+- **Deslocamento Escalar** é a variação na posição de um corpo, no caso a ciclista, considerando a posição inicial e a posição final. Pode ser representado pela expressão matemática $\Delta S = S- S_0$.
+
+- O deslocamento da ciclista no trecho 1 é dado por:  $\Delta S_1 = 6 - 0 = 6$ km e no trecho 2 é dado por:  $\Delta S_1 = 18 - 6 = 12$ km. 
+
+- O deslocamento total:  $\Delta S_{total} = 18 - 0 = 18$ km. 
+
+## Deslocamento, velocidade e aceleração {.texto}
+
+- Ao se deslocar pela ciclovia, a ciclista percorre o trajeto com certa rapidez, que pode ser medida considerando a variação do espaço percorrido e o correspondente intervalo de tempo. A grandeza física que permite quantificar essa rapidez é chamada de **velocidade escalar média** (vm) e pode ser representada pela seguinte expressão: $$Vm=\frac{\Delta s}{\Delta t}$$
+
+
+## Deslocamento, velocidade e aceleração {.texto}
+
+- A unidade de medida da velocidade da ciclista foi dada em quilômetro por hora (km/h). Porém, no Sistema Internacional de Unidades (SI), a unidade de medida de velocidade é dada em metro por segundo (m/s). Para converter km/h em m/s, e vice-versa, podemos fazer:
+
+- ![](Figuras///metroSegundo.jpg){width="60%"}
+
+
+## Deslocamento, velocidade e aceleração {.texto}
+
+Voltando ao exemplo da ciclista, enquanto ela se desloca pela ciclovia, sua velocidade pode variar. A grandeza física que quantifica essa variação em um intervalo de tempo é chamada de aceleração escalar média ($a_m$), que é media em $m/s^2$e pode ser representada pela expressão:
+$$Vm=\frac{\Delta v}{\Delta t}$$
+
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+01. Imagine um skatista andando em um parque com várias pessoas. Indique um referencial para o qual o skatista esteja em repouso e outro referencial para o qual ele esteja em movimento. Explique por que um movimento pode ser considerado relativo.
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+02. Um corredor inicia uma prova de 100 m rasos com aceleração igual a 3,0 $m/s^2$, mantida durante 3 s, quando ele passa a se deslocar com velocidade constante.
+
+a)Calcule a velocidade do corredor após os três segundos iniciais.
+
+b)Calcule o tempo total da prova.
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+03. Imagine que um paraquedista saltará de uma aeronave que se movimenta em uma trajetória retilínea, horizontal e para a direita. Ao saltar e deixar o movimento acontecer naturalmente, qual será a trajetória do paraquedista até chegar ao chão?
+
+
+04. Um professor de Física, durante uma de suas aulas, perguntou aos alunos: “Por que podemos dizer que estamos todos em movimento mesmo que sentados em nossas carteiras?”
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+05. Uma partícula se desloca 5 km a cada 10 segundos. Determine sua velocidade média em m/s.
+
+

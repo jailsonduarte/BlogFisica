@@ -1,0 +1,86 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+  pdf_document: default
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 2ª Série Ensino Médio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+# \centering Mol e o Cálculo Estequiométrico
+
+
+
+**01.** Sabendo que a massa atômica do magnésio é igual a 24 u, determine a massa, em gramas, de um átomo desse elemento. (Dado: Número de Avogadro = $6,0 \cdot 10^{23}$.
+
+**02.** Qual é a massa, em gramas, de uma molécula de etano (C2H6):
+
+
+**03.** A massa, em gramas, e o número de átomos existente em 8,0 mol de átomos de mercúrio (MA = 200) são:
+
+\vspace{-0.4cm}
+
+a) 200 g e $6,0 \cdot 10^{23}$ átomos. 
+b) 800 g e $48,0 \cdot 10^{23}$ átomos.
+c) 1600 g e $48,0 \cdot 10^{23}$ átomos.
+d) 200 g e $48,0 \cdot 10^{23}$ átomos.
+e) 1600 g e $6,0 \cdot 10^{23}$ átomos.
+
+\vspace{-0.4cm}
+
+**04.** O número de mols existentes em 160 g de hidróxido de sódio (NaOH) é: Dados: Na=23; O=16; H=1.
+
+\vspace{-0.3cm}
+a) 2,0 mols. &nbsp; b) 3,0 mols. &nbsp;  c) 4,0 mols. &nbsp; d) 5,0 mols. e) 6,0 mols.
+
+\vspace{-0.3cm}
+**05.** (O número aproximado de átomos de carbono presentes em 230 g de etanol C2H5OH é: Dados: H=1; C=12; O=16
+
+\vspace{-0.3cm}
+a) $3,0 \cdot 10^{23}$ &nbsp; b) $6,0 \cdot 10^{23}$ &nbsp; c $12,0 \cdot 10^{23}$ &nbsp; d) $3,0 \cdot 10^{24}$ &nbsp; e) $6,0 \cdot 10^{24}$ 
+
+
+\vspace{-0.3cm}
+**06.** A combustão completa do metanol pode ser representada pela equação:
+
+$$CH_3OH_{(l)} + O_{2(g)} \to H_2O_{(l)}$$
+Quando se utilizam 5,0 mol de metanol nessa reação, quantos mols de CO2 são produzidos?
+
+a) 1,0   &nbsp; &nbsp;    b) 2,5  &nbsp; &nbsp;    c) 5,0    &nbsp; &nbsp;    d) 7,5   &nbsp; &nbsp; e) 10
+
+**07.** Metanol (CH3OH) pode ser obtido de acordo com a reação:
+$$CO + 2H_{2} \to CH_3OH$$
+Qual a quantidade de gás hidrogênio, em mols, necessária para obter 2,4 mols de metanol?
+
+a) 1,2     &nbsp; &nbsp; b) 2,4    &nbsp; &nbsp;  c) 3,6    &nbsp; &nbsp;   d) 4,8   &nbsp; &nbsp; e) 6,0
+
+
+**08.** Trióxido de Enxofre reage com água e obtém ácido sulfúrico, de acordo com a reação:
+$$S0_3 + H_{2}O \to H_2SO_4$$
+Qual a massa de ácido sulfúrico (H2SO4), em gramas, que pode ser obtida a partir de 16 gramas de trióxido de enxofre (SO3) e água em excesso? Dados: H= 1u; O = 16u; S = 32u.
+
+a) 9,8    &nbsp; &nbsp;  b) 14,7   &nbsp; &nbsp;   c) 19,6    &nbsp; &nbsp;  d) 28,4    &nbsp; &nbsp; e) 39,2
+

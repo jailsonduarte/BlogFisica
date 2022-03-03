@@ -1,0 +1,164 @@
+---
+title: |
+  <a id="home" href="../../../index.html"><img class="logo" src="logo//logo.jpg"  alt="Home"></a>
+        <br>
+   <small>Química 1ª Série</small>
+   <br>
+  <small>Aula 01: Energia e Vida </small>
+author: "Jailson Duarte <br>" 
+date: "`r format(Sys.time(), '%d %B de %Y')`"
+encoding: UTF-8
+lang: pt-BR
+csl: ReferenciasABNT.csl
+bibliography: BibliografiaApresentacao.bib
+transition: rotate
+output: 
+  revealjs::revealjs_presentation:
+    
+    incremental: true
+    css: styles.css
+    fig_caption: true
+    self_contained: false
+    center: true
+    slideNumber: true
+    slide_level: 3
+    toc: true
+    mathjax: local
+    includes:
+      in_header: header.html
+    reveal_plugins: 
+      - zoom
+      - notes
+      - chalkboard
+      - menu
+    reveal_options:
+      chalkboard:
+        theme: chalkboard  
+        toggleNotesButton: true
+        menu:
+          numbers: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## Importante {.texto .posicao}
+
+O conteúdo desta Aula foi elaborado com base no Livro:
+
+![Documento R Markdown](Figuras//livro1.jpg){width="40%"}
+
+## Trabalho e Energia {.texto .posicao}
+
+-  Quanto mais intensas forem as atividades necessárias à sobrevivência, maior será a necessidade energética, sejapara uma planta, seja para os animais, seja para os seres humanos. As plantas obtêm energia por meio da luz solar; 
+
+- já os animais, incluindo os seres humanos, a obtêm dos alimentos que consomem. Mas será que toda a energia obtida por meio do Sol e dos alimentos é aproveitada? 
+
+- O que acontece com a energia não aproveitada? 
+
+
+## Trabalho e Energia {.texto}
+
+- Em um sistema isolado, isto é, que não interage com outros sistemas, não há troca de energia, todas as formas de energia são transformadas em outras. 
+
+- Sabendo que a energia se transforma, podemos enunciar o princípio da conservação da energia:
+
+- **A energia não pode ser criada nem destruída. Ela apenas se transforma em outro tipo de energia**.
+
+
+## Trabalho e Energia {.texto}
+
+- - Quando a energia está associada ao movimento, ela é  denominada energia mecânica.
+
+- A ideia de trabalho pode estar relacionada à atividade produtiva ou criativa, remunerada ou não, mas também  pode ser associada à ideia de força aplicada sobre um corpo com o objetivo de movê-lo. 
+
+- O conceito de trabalho está intimamente ligado ao conceito de energia, uma das 
+ideias fundamentais e mais importantes da Física. 
+
+## Trabalho e Energia {.texto}
+
+
+- definimos a grandeza denominada **Trabalho** ($\tau$) como a quantidade de energia mecânica 
+transformada e/ou transferida durante um movimento. 
+
+- Nos casos em que uma força é aplicada sem que haja deslocamento, não há realização de trabalho, ou seja, não há transferência de energia mecânica;
+
+
+
+## Trabalho e Energia {.texto}
+
+
+-   ![](Figuras//trabalho.gif){width="40%"} 
+
+- A força exercida por um halterofilista para levantar os pesos realiza trabalho quando o peso é elevado.
+
+
+## Trabalho realizado por uma força constante  {.texto}
+
+-   ![](Figuras//trabalho2.gif){width="50%"} 
+
+- Quando você aplica uma força para sergurar um livro e o retira de sua posição inicial ou quando ergue uma mochila do chão para colocá-la nas costas ou, ainda, quando puxa uma cadeira, a força para deslocar o objeto em questão realiza trabalho.
+
+
+## Trabalho realizado por uma força constante  {.texto}
+
+-  O trabalho realizado por uma força constante que tem a mesma direção do deslocamento é definido da seguinte forma: 
+
+$$\tau = F \cdot d$$
+
+
+-   Em que $\tau$ é uma grandeza escalar que resulta do produto da intensidade da força (F) pelo módulo do deslocamento (d). 
+
+## Trabalho realizado por uma força constante  {.texto}
+
+- Note que, se não há deslocamento, não há trabalho.
+
+- ![](Figuras///trabalho3.gif){width="30%"}
+
+
+
+## Trabalho realizado por uma força constante  {.texto}
+
+- Se a força não tem a mesma direção do deslocamento, apenas a componente da força na direção do deslocamento realiza trabalho. Podendo ser ser calculada por $F_x = F \cdot cos\theta$
+
+- ![](Figuras///trabalho4.png){width="40%"}
+
+
+## Trabalho realizado por uma força constante  {.texto}
+
+- O trabalho realizado por uma força que tem o mesmo sentido do deslocamento do corpo é positivo, e é chama￾do de trabalho motor. 
+
+- O trabalho realizado por uma força que tem sentido oposto ao deslocamento do corpo 
+é negativo e denominado trabalho resistente. 
+
+- O trabalho é nulo se a força aplicada for perpendicular à direção de deslocamento
+
+## Trabalho realizado por uma força constante  {.texto}
+
+- No Sistema Internacional de Unidades (SI), o trabalho é medido em joule (J). Um joule equivale ao trabalho realizado por uma força de um newton (N) aplicada a uma distância de um metro na direção e no sentido da força, ou seja: $$1 J = 1 N \cdot 1 m = 1 N m$$
+
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+01. Uma força constante de 20 N produz, em um corpo, um deslocamento de 0,5 m no mesmo sentido 
+da força. Calcule o trabalho realizado por essa força. 
+
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+02. Um carrinho é deslocado num plano horizontal sob a ação de uma força horizontal de 50 N. Sendo 400 J o trabalho realizado por essa força, calcule a distância percorrida. 
+
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+03. Sobre um corpo de massa 10 kg, inicialmente em repouso, atua uma força F que faz variar sua 
+velocidade para 28 m/s em 4 segundos. Determine: 
+a)a aceleração do corpo; 
+b)o valor da força F; 
+c)o trabalho realizado pela força F para deslocar o corpo de 6 m. 
+
+
+
+
+04. Um boi arrasta um arado, puxando-o com uma força de 900 N. Sabendo que o trabalho realizado 
+pelo foi de 18000 J, calcule a distância percorrida pelo boi.

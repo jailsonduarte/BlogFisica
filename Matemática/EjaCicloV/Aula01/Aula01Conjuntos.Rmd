@@ -1,0 +1,153 @@
+---
+title: |
+  <a id="home" href="../../../index.html"><img class="logo" src="logo//logo.jpg"  alt="Home"></a>
+        <br>
+   <small>Matemática </small>
+   <br>
+  <small>Aula 01: Noções de Conjunto </small>
+author: "Jailson Duarte <br>" 
+date: "`r format(Sys.time(), '%d %B de %Y')`"
+encoding: UTF-8
+lang: pt-BR
+csl: ReferenciasABNT.csl
+bibliography: BibliografiaApresentacao.bib
+transition: rotate
+output: 
+  revealjs::revealjs_presentation:
+    
+    incremental: true
+    css: styles.css
+    fig_caption: true
+    self_contained: false
+    center: true
+    slideNumber: true
+    slide_level: 3
+    toc: true
+    mathjax: local
+    includes:
+      in_header: header.html
+    reveal_plugins: 
+      - zoom
+      - notes
+      - chalkboard
+      - menu
+    reveal_options:
+      chalkboard:
+        theme: chalkboard  
+        toggleNotesButton: true
+        menu:
+          numbers: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## Importante {.texto .posicao}
+
+O conteúdo desta Aula foi elaborado com base no Livro:
+
+![Documento R Markdown](Figuras//livro1.jpg){width="40%"}
+
+## Noções de conjuntos {.texto .posicao}
+
+A ideia de conjunto é uma noção primitiva que desempenha um papel fundamental em toda a Matemática e aparece, intuitivamente, quando consideramos um agrupamento qualquer. 
+
+- Imagine um recipiente que tem ou não objetos. Podemos associar esse recipiente a um 
+**conjunto**. Neste caso, cada objeto pertencente a ele é chamado **elemento**.
+
+
+
+## Representações de conjuntos {.texto .posicao}
+
+- Representamos um conjunto por uma letra maiúscula, e seus elementos ficam separados por vírgula (ou ponto e vírgula) e entre chaves;
+
+- $A=\{0, 1, 2, 3, 4\}$
+
+- $B=\{0, 1, 2, 3, \cdots,  50, 51\}$
+
+- $C=\{2, 4, 6, 8 \cdots \}$
+
+
+## Representações de conjuntos {.texto .posicao}
+
+Os conjuntos A e B são finitos, pois seus elementos podem ser contados, ou seja, 
+podemos associar seus elementos aos números naturais, de 1 até certo número n; e 
+os conjuntos C , por sua vez, é infinito.
+
+## Representações de conjuntos {.texto .posicao}
+
+- Utilizamos uma propriedade ou lei de formação. Por exemplo:
+
+
+- $E =\{x|x$ é um número primo maior do que 2 e menor do que 15$\}$
+
+- A lei de formação é uma condição que define quais objetos serão elementos do conjunto. 
+
+## Representações de conjuntos {.texto .posicao}
+
+- Representamos os elementos por meio de um diagrama. Por exemplo:
+
+-   ![](Figuras//diagrama1.jpg){width="50%"} 
+
+
+## Relações entre elementos e conjuntos {.texto}
+
+Os elementos de um conjunto possuem uma relação de pertinência com esse conjunto.
+Assim, dizemos que um objeto $x$ pertence a um conjunto $M$ quando x é elemento de M.
+Nesse caso, escrevemos simbolicamente $x\in M$. Por outro lado, se y não é elemento
+de M, dizemos que y não pertence a M e escrevemos simbolicamente $y \not\in M$.
+
+
+
+## Relações entre elementos e conjuntos {.texto}
+
+-  Quando todo elemento de um conjunto A também é elemento de um conjunto B, 
+dizemos que A é subconjunto de B ou que A está contido em B e escrevemos simbolicamente $A\subset b$. Essa relação entre conjuntos é chamada de **relação de inclusão**.
+
+## Relações entre elementos e conjuntos {.texto}
+
+![](Figuras///exemplo1.jpg){width="100%"}
+
+
+## Relações entre elementos e conjuntos {.texto}
+
+![](Figuras///exemplo2.jpg){width="100%"}
+
+## Relações entre elementos e conjuntos {.texto}
+
+![](Figuras///exemplo3.jpg){width="100%"}
+
+
+
+## Propriedades {.texto}
+
+- **Reflexiva:** $A\subset B$ para qualquer conjunto A, ou seja, todo conjunto está contido em si mesmo.
+
+- **Antissimétrica:** Se $A\subset B$ e $B\subset A$, então $A= B$. Trata-se da condição de igualdade de dois conjuntos.
+
+
+- **Transitiva:** Se $A\subset B$ e $B\subset C$, então  $A\subset c$.
+
+
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+01. 1. Represente entre chaves os elementos do conjunto 
+formado: 
+a)pelas letras de seu primeiro nome.
+b)pelo primeiro nome de três dos seus colegas.
+c)pelos números naturais ímpares menores do que 15.
+d) pelos divisores inteiros positivos do número 30.
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+02. Represente entre chaves os elementos de cada um 
+dos conjuntos a seguir.
+a)A é o conjunto dos números naturais menores do 
+que 7.
+b) B é o conjunto dos números inteiros maiores do que 26 e menores do que 0.
+
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+![](Figuras///exemplo4.jpg){width="70%"}

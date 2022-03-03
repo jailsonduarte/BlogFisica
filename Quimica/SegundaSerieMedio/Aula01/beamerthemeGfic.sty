@@ -1,0 +1,210 @@
+\usetheme{Gfic}
+
+% Custom colours
+\definecolor{headerline}{RGB}{43,129, 195}
+\definecolor{headerlinepale}{RGB}{245, 245, 245}
+\definecolor{titlebox}{RGB}{201, 201, 201}
+\definecolor{blockalert}{RGB}{105, 154, 155}
+\definecolor{blockalertpale}{RGB}{245, 245, 245}
+\definecolor{blockexample}{RGB}{0, 171, 203}
+\definecolor{blockexamplepale}{RGB}{245, 245, 245}
+
+% Set colours to variables
+
+\setbeamercolor{block title}{fg=white, bg=headerline}
+\setbeamercolor{block body}{fg=black, bg=headerlinepale}
+\setbeamercolor{block title alerted}{fg=white, bg=blockalert}
+\setbeamercolor{block body alerted}{fg=black, bg=blockalertpale}
+\setbeamercolor{block title example}{fg=white, bg=blockexample}
+\setbeamercolor{block body example}{fg=black, bg=blockexamplepale}
+
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{title}{fg=black}
+\setbeamercolor{frametitle}{fg=black}
+\setbeamercolor{framesubtitle}{fg=black}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{section in toc shaded}{fg=black}
+\setbeamercolor{item}{fg=black}
+\setbeamercolor{subitem}{fg=black}
+\setbeamercolor{subsubitem}{fg=black}
+\setbeamercolor{description item}{fg=black}
+\setbeamercolor{caption}{fg=black}
+\setbeamercolor{caption name}{fg=black}
+
+
+
+\usefonttheme{serif}
+\setbeamerfont{title}{size=\huge, series=\bfseries}
+\setbeamerfont{subtitle}{size=\Large}
+\setbeamerfont{author}{size=\normalsize}
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamerfont{date}{size=\normalsize}
+\setbeamerfont{frametitle}{size=\Large}
+
+
+\defbeamertemplate*{frametitle}{gfic}[1][left]{
+	\tikz[remember picture,overlay]{
+		\node(a)[anchor=west]{\usebeamerfont{frametitle}\insertframetitle};
+		\draw[line width=0.31em, headerline](a.south west)--+(11,0);
+	}
+	\vskip1em 
+} 
+
+
+\defbeamertemplate*{title page}{gfic}[1][]
+{
+	\vbox{}
+	\vfill
+	\begingroup
+	\centering
+	\begin{beamercolorbox}[sep=8pt,center,#1]{title}
+		\usebeamerfont{title}\inserttitle\par%
+		\ifx\insertsubtitle\@empty%
+		\else%
+		\vskip0.25em%
+		{\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+		\fi%     
+	\end{beamercolorbox}%
+	\vskip1em\par
+	\begin{beamercolorbox}[sep=8pt,center,#1]{author}
+		\usebeamerfont{author}\insertauthor
+	\end{beamercolorbox}
+	\begin{beamercolorbox}[sep=8pt,center,#1]{institute}
+		\usebeamerfont{institute}\insertinstitute
+	\end{beamercolorbox}
+	\begin{beamercolorbox}[sep=8pt,center,#1]{date}
+		\usebeamerfont{date}\insertdate
+	\end{beamercolorbox}\vskip0.5em
+	{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+	\endgroup
+	\vfill
+}
+
+
+% Part page: default
+\defbeamertemplate*{part page}{gfic}[1][]
+{
+	\begingroup
+	\centering
+	{\usebeamerfont{part name}\usebeamercolor[fg]{part name}\partname~\insertromanpartnumber}
+	\vskip1em\par
+	\begin{beamercolorbox}[sep=16pt,center,#1]{part title}
+		\usebeamerfont{part title}\insertpart\par
+	\end{beamercolorbox}
+	\endgroup
+}
+
+
+% Section page: default
+
+\defbeamertemplate*{section page}{gfic}[1][]
+{
+	\begingroup
+	\centering
+	{\usebeamerfont{section name}\usebeamercolor[fg]{section name}\sectionname~\insertsectionnumber}
+	\vskip1em\par
+	\begin{beamercolorbox}[sep=12pt,center,#1]{section title}
+		\usebeamerfont{section title}\insertsection\par
+	\end{beamercolorbox}
+	\endgroup
+}
+
+
+
+% Title page
+% Default page
+
+% Table of contents
+\setbeamertemplate{section in toc}[square]
+\setbeamertemplate{subsection in toc}[square]
+
+% Itemize
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[circle]
+\setbeamertemplate{itemize subsubitem}[circle]
+
+% Numero paginas
+\setbeamertemplate{section in toc}{%
+	{\inserttocsectionnumber.}~\inserttocsection
+}
+
+\setbeamertemplate{footline}{
+	\ifnum \insertpagenumber > 1
+	\raisebox{7pt}[0pt][0pt]{
+		\makebox[\paperwidth]{\hfill\makebox[30pt]{\bfseries\scriptsize\insertframenumber/\inserttotalframenumber }}
+	}
+	\fi
+	
+	
+}
+
+% Block
+\defbeamertemplate*{block begin}{gfic}{
+	
+	\begin{beamercolorbox}[wd=0.9\textwidth, sep=0.5em, leftskip=0.1em]{block title}
+		\usebeamerfont*{block title}\insertblocktitle
+	\end{beamercolorbox}
+	\nointerlineskip
+	\begin{beamercolorbox}[wd=0.9\textwidth, sep=0.5em, leftskip=0.1em]{block body}
+	}
+	
+	\defbeamertemplate*{block end}{gfic}{
+	\end{beamercolorbox}
+}
+
+% Alert block
+\defbeamertemplate*{block alerted begin}{gfic}{
+	\begin{beamercolorbox}[wd=0.9\textwidth, sep=1em, leftskip=0.1em]{block title alerted}
+		\usebeamerfont*{block title}\insertblocktitle
+	\end{beamercolorbox}
+	\nointerlineskip
+	\begin{beamercolorbox}[wd=0.9\textwidth, sep=0.5em, leftskip=0.1em]{block body alerted}
+	}
+	
+	\defbeamertemplate*{block alerted end}{gfic}{
+	\end{beamercolorbox}
+}
+
+% Example block
+\defbeamertemplate*{block example begin}{gfic}{
+	\begin{beamercolorbox}[wd=0.9\textwidth, sep=0.5em, leftskip=0.1em]{block title example}
+		\usebeamerfont*{block title}\insertblocktitle
+	\end{beamercolorbox}
+	\nointerlineskip
+	\begin{beamercolorbox}[wd=0.9\textwidth, sep=0.5em, leftskip=0.1em]{block body example}
+	}
+	
+	\defbeamertemplate*{block example end}{gfic}{
+	\end{beamercolorbox}
+}
+
+
+% Package usado no modelo de slides
+
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[export]{adjustbox}
+
+% Novo
+%\usepackage{ragged2e}
+%\addtobeamertemplate{block begin}{}{\justifying} % Justify all blocks
+
+
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=2em, text margin right=2em}
+\parskip=1em
+
+
+\logo{
+\includegraphics[width=.25\textwidth,left]{logo/logoGfic.jpg}
+}
+
+\title{}
+
+\subtitle{}
+
+\author{}
