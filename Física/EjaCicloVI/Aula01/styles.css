@@ -1,21 +1,24 @@
-<style>
-
-
-@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+<style>@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700,400italic,700italic);
+
 /**
  * 
  */
 html * {
   color-profile: sRGB;
-  rendering-intent: auto; }
+  rendering-intent: auto;
+}
 
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background-color: #e6e2e9;
-   }
+}
 
+h1.title{
+  text-align: center;
+  font-size: 2em;
+}
 
 
 .reveal section h1 {
@@ -32,18 +35,18 @@ body {
   margin-top: 1.2em;
 }
 
-.posicao h1{
+.posicao h1 {
   margin-top: 20%;
 
 }
 
-.sourceCode{
-  
+.sourceCode {
+
   background-color: #f2f2f2;
   margin-right: 20px;
 }
 
-code.r{
+code.r {
   font-size: 20px;
 }
 
@@ -58,26 +61,26 @@ code.r{
 }
 
 .slide-logo2 {
-   position: relative;
-   margin-left: 10px;
+  position: relative;
+  margin-left: 10px;
   top: 15px;
-   width: 70px;
-   border-radius: 10px;
+  width: 70px;
+  border-radius: 10px;
 }
 
 /* Style/position the footer text */
 #header-footer .slide-footer {
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    text-align: center;
-    font-size: 80%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  text-align: center;
+  font-size: 80%;
 }
 
 .logo {
-   
+
   width: 300px;
 }
 
@@ -85,12 +88,14 @@ span.small {
   text-align: center;
 }
 
-p, li{
+p,
+li {
   text-align: justify;
 }
 
 p.exercicios {
-   
- color: red;
+
+  color: red;
 }
+
 </style>

@@ -2,9 +2,9 @@
 title: |
   <a id="home" href="../../../index.html"><img class="logo" src="logo//logo.jpg"  alt="Home"></a>
         <br>
-   <small>Química 1ª Série</small>
+   <h1 >Física: Ciclo VI</h1>
    <br>
-  <small>Aula 01: Energia e Vida </small>
+  <h1>Aula 01: Energia e Vida </h1>
 author: "Jailson Duarte <br>" 
 date: "`r format(Sys.time(), '%d %B de %Y')`"
 encoding: UTF-8
