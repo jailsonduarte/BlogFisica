@@ -55,9 +55,6 @@
       border-color: gray;
     }
 
-    .reveal .slide-menu-button {
-      left: 105px !important;
-    }
 
   </style>
 
@@ -448,9 +445,10 @@ document.getElementsByTagName('head')[0].appendChild(style);
 </script>
 
     <div id="header-footer">
-      <a href="../../../index.html"><img class="slide-logo" src="logo/logo.jpg" alt="Home"></a>
+      <a href="../../../index.html"><img class="slide-logo" src="logo/logo.jpg" ></a>
+      <a href="../../../index.html"><img class="slide-logo2" src="logo/Home.jpg" ></a>
       
-      <p class="slide-footer">BlogFisica - Organizador: Jailson Duarte</p> 
+      <p class="slide-footer">BlogFisica - Organizador: Jailson Duarte</p>
 
 
     </div>
@@ -466,7 +464,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <section>
     <h1 class="title"><p><a id="home" href="../../../index.html"><img class="logo" src="logo/logo.jpg"  alt="Home"></a> <br> <small>Química 1ª Série</small> <br> <small>Aula 01: Estados Físicos da Matéria</small></p></h1>
     <h2 class="author">Jailson Duarte <br></h2>
-    <h3 class="date">03 março de 2022</h3>
+    <h3 class="date">21 março de 2022</h3>
 </section>
 
 <section id="importante" class="title-slide slide level2 texto posicao">
@@ -564,7 +562,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <section id="section-1" class="title-slide slide level2">
 <h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
 <ol start="6" type="1">
-<li class="fragment"><p>Um estudante fez a seguinte afirmação: “ Enquanto o gelo derretia, sua temperatura subiu de 0oC à 5 oC”. Você acha que a afirmação do estudante está correta? Justifique.</p></li>
+<li class="fragment"><p>Um estudante fez a seguinte afirmação: “ Enquanto o gelo derretia, sua temperatura subiu de 0ºC à 5ºC”. Você acha que a afirmação do estudante está correta? Justifique.</p></li>
 <li class="fragment"><p>Ao cozinhar alimentos, como carne ou legumes, as pessoas costumam diminuir a intensidade da chama do fogo assim que a água começa a ferver. Será que desse modo a comida demora mais para ficar pronta? Qual a vantagem deste procedimento?</p></li>
 </ol>
 </section>
@@ -673,24 +671,9 @@ document.getElementsByTagName('head')[0].appendChild(style);
 
 
 
-        chalkboard: {
-          toggleNotesButton: true,
-          theme: 'chalkboard',
-        },
-
-        keyboard: {
-          67: function() { RevealChalkboard.toggleNotesCanvas() },    // toggle notes canvas when 'c' is pressed
-          66: function() { RevealChalkboard.toggleChalkboard() }, // toggle chalkboard when 'b' is pressed
-          46: function() { RevealChalkboard.clear() },    // clear chalkboard when 'DEL' is pressed
-           8: function() { RevealChalkboard.reset() },    // reset chalkboard data on current slide when 'BACKSPACE' is pressed
-          68: function() { RevealChalkboard.download() }, // downlad recorded chalkboard drawing when 'd' is pressed
-        },
-
         // Optional reveal.js plugins
         dependencies: [
-          { src: 'Aula01EstadosFisicosMateria_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
           { src: 'Aula01EstadosFisicosMateria_files/reveal.js-3.3.0.1/plugin/zoom-js/zoom.js', async: true },
-          { src: 'Aula01EstadosFisicosMateria_files/reveal.js-3.3.0.1/plugin/chalkboard/chalkboard.js', async: true },
           { src: 'Aula01EstadosFisicosMateria_files/reveal.js-3.3.0.1/plugin/menu/menu.js', async: true },
         ]
       });

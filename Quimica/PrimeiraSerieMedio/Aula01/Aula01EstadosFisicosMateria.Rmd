@@ -27,8 +27,6 @@ output:
       in_header: header.html
     reveal_plugins: 
       - zoom
-      - notes
-      - chalkboard
       - menu
     reveal_options:
       chalkboard:
@@ -138,7 +136,7 @@ matéria.](Figuras///mudancaEstados.jpg){width="80%"}
 
 ## ![](Figuras///atividades.jpg){width="30%"}
 
-06. Um estudante fez a seguinte afirmação: “ Enquanto o gelo derretia, sua temperatura subiu de 0oC à 5 oC”. Você acha que a afirmação do estudante está correta? Justifique.
+06. Um estudante fez a seguinte afirmação: “ Enquanto o gelo derretia, sua temperatura subiu de 0ºC à 5ºC”. Você acha que a afirmação do estudante está correta? Justifique.
 
 
 07. Ao cozinhar alimentos, como carne ou legumes, as pessoas costumam diminuir a

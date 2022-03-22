@@ -2,7 +2,7 @@
 title: |
   <a id="home" href="../../../index.html"><img class="logo" src="logo//logo.jpg"  alt="Home"></a>
         <br>
-   <small>Química 1ª Série</small>
+   <small>Física 1ª Série</small>
    <br>
   <small>Aula 01: Introdução ao Estudo dos Movimentos </small>
 author: "Jailson Duarte <br>" 
