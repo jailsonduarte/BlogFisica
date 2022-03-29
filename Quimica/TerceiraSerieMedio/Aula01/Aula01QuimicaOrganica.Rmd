@@ -158,13 +158,13 @@ Exemplos de hidrocarbonetos, cujo sufixo é **(o)**:
 
 1. Etano
 
-![](Figuras///etano.gif){width="100%"}
+![](Figuras///etano.gif){width="80%"}
 
 ## Nomenclatura dos compostos orgânicos {.texto}
 
 1. Eteno
 
-![](Figuras///eteno.gif){width="100%"}
+![](Figuras///eteno.gif){width="80%"}
 
 
 ## ![](Figuras///atividades.jpg){width="20%"}
