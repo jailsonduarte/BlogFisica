@@ -138,6 +138,7 @@ modo que a unidade de medida da densidade seja $g/mL$, que é equivalente a $g/c
 **Cristalização fracionada**: método em que os diferentes solutos dissolvidos em um solvente são separados à medida que o solvente sofre evaporação. Esse método baseia-se na diferença de solubilidade.
 
 ## Métodos de separação de misturas {.texto}
+
 **Fusão fracionada**: método em que aquecemos uma mistura homogênea formada por sólidos para separar os componentes em razão dos diferentes pontos de fusão;
 
 **Sublimação fracionada**: método em que aquecemos uma mistura homogênea formada por sólidos, sendo um deles sublimável.
@@ -148,6 +149,7 @@ modo que a unidade de medida da densidade seja $g/mL$, que é equivalente a $g/c
 
 
 ## ![](Figuras///atividades.jpg){width="30%"}
+
 01. Um objeto de metal, de massa 14,5 g, é colocado em uma proveta contendo 50 mL de água. Após a imersão desse objeto, o volume medido na proveta é de 52 mL. Determine a
 densidade, em g/mL, do objeto de metal.
 

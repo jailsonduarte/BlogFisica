@@ -71,6 +71,39 @@ a) a massa de 0,25 mol de $H_2O$.
 
 b) a quantidade de matéria (mol) em 980g de Ácido sulfúrico ($H_2SO_4$)
 
+## Resposta 1
+
+Para calcular a massa de determinado elemento é só multiplicar a atomicidade do elemento pela massa e somar com os demais elementos.
+
+$$H_2O = 18g \; (2 \cdot 1 + 16 = 18)$$
+ <br/>
+
+
+$$ 1 \; mol \; de \; H_2O \longrightarrow 18 g \;de \;H_2O$$
+ <br/>
+
+$$0,25  \; mol  \;de  \;H_2O \longrightarrow  x g \;de \;H_2O$$
+
+$$x = 4,5 g \; de\; H_2O$$
+
+Portanto a massa em gramas de 0,25 mol de $H_2O$ é 4,5 gramas
+
+## Resposta 2
+
+Massa molar do $H_2SO_4$: 
+
+$$H_2SO_4 = 1 \cdot 2 + 32 + 16 \cdot 4 = 98 \; g/mol{-1}$$
+ <br/>
+ 
+$$1 \;mol \;de \;H_2SO_4 \longrightarrow 98  \;g$$
+ <br/>
+$$x  \;mol  \;de  \;H_2SO_4 \longrightarrow  \;980  \;g$$
+ <br/>
+$$x =  \frac{980}{98} = 10$$
+
+x = 10 mols de $H_2SO_4$
+
+
 ## Exemplos de massa molar e número de partículas para diferentes substâncias {.texto}
 
 ![](Figuras//exMassaMolar.jpg){width="80%"}

@@ -147,9 +147,44 @@ número de carbonos na cadeia principal, o infixo indica o tipo de ligação –
 Exemplos de hidrocarbonetos, cujo sufixo é **(o)**:
 
 ![](Figuras//suf1.jpg){width="100%"}
-## ![](Figuras///atividades.jpg){width="20%"}
-
-Dê nome à substância: CH 2= CH — CH3
 
 ## Nomenclatura dos compostos orgânicos {.texto}
 
+1. Metano
+
+![](Figuras///metano.gif){width="100%"}
+
+## Nomenclatura dos compostos orgânicos {.texto}
+
+1. Etano
+
+![](Figuras///etano.gif){width="100%"}
+
+## Nomenclatura dos compostos orgânicos {.texto}
+
+1. Eteno
+
+![](Figuras///eteno.gif){width="100%"}
+
+
+## ![](Figuras///atividades.jpg){width="20%"}
+
+Dê nome à substância: CH2= CH — CH3
+
+
+
+## ![](Figuras///atividades.jpg){width="20%"}
+
+A gasolina é obtida a partir do petróleo e, basicamente, pode ser considerada uma mistura de hidrocarbonetos. Três de seus componentes estão representados a seguir:
+
+$$H_3C \;─ \;(CH_2)_5 \;─\; CH_3$$
+
+$$H_3C \;─ \;C(CH_3)_2 \;─ \;CH_2 \;─ \;CH(CH_3)_2$$
+
+$$H_3C \;─ \; (CH_2)_6 \;─ \; CH_3$$
+
+Os nomes desses três compostos, respectivamente, são:
+
+## ![](Figuras///atividades.jpg){width="20%"}
+
+![](Figuras///hidrocarbonetos.jpg){width="50%"}

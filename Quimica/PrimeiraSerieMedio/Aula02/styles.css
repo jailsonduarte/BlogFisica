@@ -17,7 +17,6 @@ body {
    }
 
 
-
 .reveal section h1 {
   color: #000099;
 }
@@ -80,6 +79,10 @@ code.r{
 .logo {
    
   width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 span.small {
@@ -100,6 +103,7 @@ p.fonte{
   text-align: center;
 
 }
+
 
 
 </style>
