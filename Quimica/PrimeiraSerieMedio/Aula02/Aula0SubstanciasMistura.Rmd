@@ -107,96 +107,166 @@ modo que a unidade de medida da densidade seja $g/mL$, que é equivalente a $g/c
 
 ## Métodos de separação de misturas {.texto}
 
-<font color=#990000 Catação>: método que utiliza as mãos ou um artefato para separar componentes de diferentes tamanhos de uma mistura heterogênea formada por sólidos ou sólido e líquido.
+**Catação**: método que utiliza as mãos ou um artefato para separar componentes de diferentes tamanhos de uma mistura heterogênea formada por sólidos ou sólido e líquido.
 
-Peneiração: método em que uma mistura heterogênea formada por sólidos ou por um sólido e um líquido atravessa uma peneira.
+**Peneiração**: método em que uma mistura heterogênea formada por sólidos ou por um sólido e um líquido atravessa uma peneira.
 
-Ventilação: método que utiliza a força do vento para separar o componente de maior densidade de uma mistura heterogênea formada por sólidos.
+**Ventilação**: método que utiliza a força do vento para separar o componente de maior densidade de uma mistura heterogênea formada por sólidos.
 
-Levigação: método que utiliza a força de um líquido para separar o componente de maior densidade de uma mistura heterogênea formada por sólidos.
+## Métodos de separação de misturas {.texto}
 
-Flotação: método em que um gás é adicionado a uma mistura formada por um sólido e um líquido para haver interação entre um deles e as bolhas e, posteriormente, a separação.
+**Levigação**: método que utiliza a força de um líquido para separar o componente de maior densidade de uma mistura heterogênea formada por sólidos.
 
-Separação magnética: método que utiliza um ímã para atrair o componente metálico de uma mistura.
+**Flotação**: método em que um gás é adicionado a uma mistura formada por um sólido e um líquido para haver interação entre um deles e as bolhas e, posteriormente, a separação.
 
-Decantação: método que utiliza a diferença de densidade e ausência de solubilidade para separar os componentes de uma mistura heterogênea formada por líquidos ou sólido e líquido.
+**Separação magnética**: método que utiliza um ímã para atrair o componente metálico de uma mistura.
 
-Centrifugação: é o método que utiliza uma centrífuga para acelerar a decantação;
+## Métodos de separação de misturas {.texto}
 
-Dissolução fracionada: método em que um líquido é adicionado a uma mistura heterogênea de sólidos com o objetivo de dissolver um deles.
+**Decantação**: método que utiliza a diferença de densidade e ausência de solubilidade para separar os componentes de uma mistura heterogênea formada por líquidos ou sólido e líquido.
 
-Filtração simples: método em que uma mistura heterogênea formada por um sólido e um líquido atravessa um filtro para que haja a separação dos componentes.
+**Centrifugação**: é o método que utiliza uma centrífuga para acelerar a decantação;
 
-Filtração a vácuo: método em que uma mistura heterogênea formada por um sólido e um líquido atravessa um filtro, caindo em um recipiente com vácuo.
+**Dissolução fracionada**: método em que um líquido é adicionado a uma mistura heterogênea de sólidos com o objetivo de dissolver um deles.
 
-Cristalização fracionada: método em que os diferentes solutos dissolvidos em um solvente são separados à medida que o solvente sofre evaporação. Esse método baseia-se na diferença de solubilidade.
+## Métodos de separação de misturas {.texto}
 
-Fusão fracionada: método em que aquecemos uma mistura homogênea formada por sólidos para separar os componentes em razão dos diferentes pontos de fusão;
+**Filtração simples**: método em que uma mistura heterogênea formada por um sólido e um líquido atravessa um filtro para que haja a separação dos componentes.
 
-Sublimação fracionada: método em que aquecemos uma mistura homogênea formada por sólidos, sendo um deles sublimável.
+**Filtração a vácuo**: método em que uma mistura heterogênea formada por um sólido e um líquido atravessa um filtro, caindo em um recipiente com vácuo.
 
-Destilação simples: método em que aquecemos uma mistura homogênea formada por sólido e líquido, sendo o líquido separado do sólido por vaporização seguida de condensação.
+**Cristalização fracionada**: método em que os diferentes solutos dissolvidos em um solvente são separados à medida que o solvente sofre evaporação. Esse método baseia-se na diferença de solubilidade.
 
-Destilação fracionada: método em que aquecemos uma mistura homogênea formada por líquidos para separá-los em razão dos diferentes pontos de ebulição.
+## Métodos de separação de misturas {.texto}
+**Fusão fracionada**: método em que aquecemos uma mistura homogênea formada por sólidos para separar os componentes em razão dos diferentes pontos de fusão;
+
+**Sublimação fracionada**: método em que aquecemos uma mistura homogênea formada por sólidos, sendo um deles sublimável.
+
+**Destilação simples**: método em que aquecemos uma mistura homogênea formada por sólido e líquido, sendo o líquido separado do sólido por vaporização seguida de condensação.
+
+**Destilação fracionada**: método em que aquecemos uma mistura homogênea formada por líquidos para separá-los em razão dos diferentes pontos de ebulição.
 
 
 ## ![](Figuras///atividades.jpg){width="30%"}
-
-01. Um objeto de metal, de massa 14,5 g, é colocado em uma proveta contendo 50 mL de
-água. Após a imersão desse objeto, o volume medido na proveta é de 52 mL. Determine a
+01. Um objeto de metal, de massa 14,5 g, é colocado em uma proveta contendo 50 mL de água. Após a imersão desse objeto, o volume medido na proveta é de 52 mL. Determine a
 densidade, em g/mL, do objeto de metal.
 
+## ![](Figuras///atividades.jpg){width="30%"}
 
-02. O que é fusão?  E solidificação? 
+Questão 02. Relacione o método de separação de misturas com a propriedade utilizada no processo de separação.
 
-03. A passagem do estado líquido para o estado gasoso pode ocorrer por três processos diferentes: evaporação, ebulição ou calefação. O que os diferencia?
+I. Decantação
+II. Destilação
+III. Extração por solvente
 
+A. Solubilidade
 
-04. Qual a diferença entre liquefação e condensação?
+B. Densidade
 
-
-05. Como se chama a mudança entre os estados sólidos e gasosos?
+C. Temperatura de ebulição
 
 ## ![](Figuras///atividades.jpg){width="30%"}
 
-06. Um estudante fez a seguinte afirmação: “ Enquanto o gelo derretia, sua temperatura subiu de 0ºC à 5ºC”. Você acha que a afirmação do estudante está correta? Justifique.
+Questão 03. Analise as afirmativas a seguir e julgue como verdadeiro (V) ou falso (F).
+
+( ) Na filtração o sólido e o líquido são separados pela diferença do tamanho das partículas.
+
+( ) A centrifugação é um processo de decantação acelerado pela força da gravidade.
+
+( ) A separação na cromatografia é realizada pela interação dos componentes da mistura com a fase móvel e a fase estacionária.
+
+## ![](Figuras///atividades.jpg){width="30%"}
+04. (Vunesp) Na preparação do café, a água quente entra em contato com o pó e é separada no coador. As operações envolvidas nessa separação são, respectivamente:
+
+a) destilação e decantação.
+
+b) filtração e destilação.
+
+c) destilação e coação.
+
+d) extração e filtração.
+
+e) extração e decantação.
 
 
-07. Ao cozinhar alimentos, como carne ou legumes, as pessoas costumam diminuir a
-intensidade da chama do fogo assim que a água começa a ferver. Será que desse
-modo a comida demora mais para ficar pronta? Qual a vantagem deste procedimento?
+## ![](Figuras///atividades.jpg){width="30%"}
+
+
+05. (Unirio) Uma mistura formada por gasolina, água, serragem e sal de cozinha pode ser separada nos seus diversos componentes seguindo-se as seguintes etapas:
+
+a) filtração, decantação e destilação.
+
+b) catação e decantação.
+
+c) sublimação e destilação.
+
+d) prensagem e decantação.
+
+e) destilação e decantação.
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+06. Cesgranrio) Numa das etapas do tratamento da água que abastece uma cidade, a água é mantida durante um certo tempo em tanques para que os sólidos em suspensão se depositem no fundo. A essa operação denominamos:
+
+a) filtração.
+
+b) sedimentação.
+
+c) sifonação.
+
+d) centrifugação.
+
+e) cristalização.
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+07. (Unifor) Um sólido A está totalmente dissolvido num líquido B. É possível separar o solvente B da mistura por meio de uma:
+
+a) centrifugação.
+
+b) sifonação.
+
+c) decantação.
+
+d) filtração.
+
+e) destilação.
 
 
 ## ![](Figuras///atividades.jpg){width="20%"}
 
-08. O gráfico abaixo mostra a mudança de estado de uma massa de água em função
-da quantidade de calor (Q):
-![](Figuras///Aula1Q8.jpg){width="20%"}
+08. (UnB) Julgue os itens a seguir, marcando C para os corretos e E para os errados.
 
-8a) Qual é o estado físico da água nos trechos A, C e E do gráfico?
+1)A evaporação permite a separação de dois líquidos bastante voláteis.
+2)É possível a separação de um material homogêneo líquido-líquido por destilação fracionada.
+3)A separação de componentes do petróleo é feita com base na diferença entre as respectivas temperaturas de ebulição.
+4)O princípio da destilação fracionada fundamenta-se na diferença de solubilidade dos sólidos de um material.
 
-8b) Que mudança de estado está ocorrendo no trecho B? E no trecho D?
 
-## ![](Figuras///atividades.jpg){width="20%"}
-
-08. O gráfico abaixo mostra a mudança de estado de uma massa de água em função
-da quantidade de calor (Q):
-![](Figuras///Aula1Q8.jpg){width="20%"}
-
-8c) No trecho B e no trecho D a temperatura está variando?
-
-8d) O que os números 0 e 100 no gráfico indicam?
 
 ## ![](Figuras///atividades.jpg){width="20%"}
 
-09. O café solúvel é obtido a partir do café comum dissolvido em água. A solução é congelada e, a seguir, diminui-se bruscamente a pressão. Com isso, a água passa direta e rapidamente para o estado gasoso, sendo eliminada do sistema por sucção. Com a remoção da água do sistema, por esse meio, resta o café em pó e seco. Identifique as mudanças de estado físico ocorridas neste processo:
+08. (UFRGS) Um sistema heterogêneo bifásico é formado por três líquidos diferentes A, B e C. Sabe-se que:
 
-(a)solidificação e fusão.
+A e B são miscíveis entre si;
+C é imiscível com A e com B;
+A é mais volátil que B.
+Com base nessas informações, os métodos mais adequados para separar os três líquidos são:
 
-(b)vaporização e liquefação
+a) centrifugação e decantação.
+b) decantação e fusão fracionada.
+c) filtração e centrifugação.
+d) filtração e destilação fracionada.
+e) decantação e destilação fracionada.
 
-(c)fusão e ebulição.
 
-(d)solidificação e sublimação.
 
-(e)fusão e liquefação
+## ![](Figuras///atividades.jpg){width="20%"}
+
+09. (Cairu) Sobre processos de separação de materiais, indique a alternativa correta.
+
+a) Coar café, um processo de separação de materiais, é um fenômeno físico.
+b) Fase de um sistema são os componentes que formam esse sistema.
+c) Um dos processos frequentemente usados para separar água do mar do sal é a filtração.
+d) Quando as substâncias passam do estado sólido para o líquido, há evidência de que ocorreu reação química.
+e) A destilação fracionada é um processo usado frequentemente para se separar dois sólidos.

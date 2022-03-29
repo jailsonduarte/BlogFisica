@@ -5,10 +5,10 @@
     padding: 0;
 }
 
-body{
+body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
-    background:#e6e6e6;
+    background: #e6e6e6;
 
 }
 
@@ -19,18 +19,19 @@ body{
 
 */
 
-#area-cabecalho{
+#area-cabecalho {
     background-color: black;
     padding: 15px;
     text-align: center;
-    
+
 }
 
-#area-logo, #area-menu{
+#area-logo,
+#area-menu {
     padding: 10px;
 }
 
-#area-principal{
+#area-principal {
     width: 920px;
     margin: 0 auto;
     padding: 15px;
@@ -38,26 +39,26 @@ body{
 }
 
 
-#area-postagens{
+#area-postagens {
     width: 660px;
     float: left;
-   
-    
+
+
 }
 
-#area-lateral{
+#area-lateral {
     width: 240px;
     float: right;
 }
 
-.postagem{
+.postagem {
     padding: 20px;
     margin-bottom: 20px;
     background: whitesmoke;
     text-align: justify;
 }
 
-.conteudo-lateral{
+.conteudo-lateral {
     background: white;
     padding: 10px;
     margin-bottom: 20px;
@@ -66,7 +67,7 @@ body{
 
 .postagem-lateral {
     font-size: 0.8em;
-    
+
     padding: 5px;
     border-bottom: 1px dotted #ccc;
 
@@ -79,7 +80,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-  }
+}
 
 /*
 
@@ -87,7 +88,7 @@ body{
 
 */
 
-#rodape{
+#rodape {
     clear: both;
     text-align: center;
     padding: 15px;
@@ -106,21 +107,23 @@ a {
 
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #f7b600;
     padding: 8px 12px;
 }
 
- a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-#area-cabecalho a:link, #area-cabecalho a:visited {
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
     color: #fff;
     padding: 8px 12px;
 }
 
-#area-cabecalho a:hover{
+#area-cabecalho a:hover {
     color: #f7b;
     background: white;
     text-decoration: none;
@@ -139,37 +142,39 @@ H1 {
 
 h2 {
     color: #f7b600;
+    text-align: center;
 
 }
 
 
 h3 {
-    color: #565656;
-    background: #ccc;
+    color: #292727;
+    background: rgb(230, 202, 202);
     padding: 5px;
+    text-align: center;
 
 }
 
 
 
-.amarelo{
+.amarelo {
     color: yellow;
 }
 
 
-.branco{
+.branco {
     color: white;
 }
 
 
-.data-postage{
+.data-postage {
     font-size: 0.8em;
     border-bottom: 1px solid #f4f4f4;
     padding-bottom: 10px;
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-   
+
 }
 
 .linha {

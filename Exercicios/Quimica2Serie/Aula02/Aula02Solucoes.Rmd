@@ -1,0 +1,116 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 2ª Série Ensino Médio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+# \centering Soluções
+
+
+
+**01.** Solução é uma mistura homogênea formada pela adição de um soluto em um solvente. Trata-se de uma mistura homogênea porque o soluto dissolve-se no solvente, não sendo possível visualizá-lo, principalmente porque as partículas do soluto são da ordem de 1 nanômetro (1 nm = 10-9 metros). A partir das informações fornecidas, responda: qual dos métodos abaixo é capaz de separar o soluto dissolvido em um solvente?
+
+a)Filtração  &nbsp;  b) Centrifugação  &nbsp;  c) Decantação &nbsp;  d) Sedimentação fracionada  &nbsp; e) Destilação simples
+
+**02.** A mistura que apresenta íons, formados a partir do processo de ionização ou dissociação, é classificada em:
+
+a)Solução concentrada &nbsp; &nbsp; b) Solução insaturada &nbsp; &nbsp; c) Solução eletrolítica &nbsp; &nbsp; d) Solução não eletrolítica &nbsp; &nbsp; e) Solução saturada
+
+
+**03.** A principal característica de uma solução é:
+
+a)&nbsp;ser sempre uma mistura homogênea.
+
+b)&nbsp;possuir sempre um líquido com outra substância dissolvida.
+
+c)&nbsp;ser um sistema com mais de uma fase.
+
+d)&nbsp;ser homogênea ou heterogênea, dependendo das condições de pressão e temperatura.
+
+e)&nbsp;ser uma substância pura em um único estado físico.
+
+
+**04.** Assinale a alternativa que contém exemplos de soluções:
+
+a)&nbsp;água de torneira, mar, granito.
+
+b)&nbsp;granito, mistura de água e óleo, ar.
+
+c)&nbsp;petróleo no mar, granito, água destilada.
+
+d)&nbsp;água pura, gás nitrogênio, ouro puro.
+
+e)&nbsp;ar, água de torneira, ouro 18 quilates.
+
+
+**05.** Durante um procedimento em um laboratório, um aluno adiciona um único cristal de cloreto de potássio (KCl) em uma solução preexistente. Logo em seguida, esse aluno percebeu que um corpo de fundo começou a ser formado no recipiente. Baseando-se nessa descrição, podemos classificar a solução inicial como:
+
+a)&nbsp; Supersaturada &nbsp;&nbsp; b) Saturada com corpo de fundo &nbsp;&nbsp; c) Estável &nbsp;&nbsp; d) Concentrada &nbsp;&nbsp;e) Saturada
+
+**06.** Quando preparamos uma solução aquosa, formada pela mistura de um soluto e um solvente, em que este dissolve o máximo de soluto possível, como podemos classificá-la?
+
+a)&nbsp;Insaturada diluída &nbsp;&nbsp; b)Insaturada concentrada &nbsp;&nbsp;c)Saturada e supersaturada &nbsp;&nbsp; d)Somente supersaturada &nbsp;&nbsp;e)Somente saturada
+
+
+**07.** (Uespi) Quando adicionamos sal comum (NaCl) à água, sob agitação e temperatura constantes, verificamos que, em dado momento, o sal não se dissolve mais. No caso do NaCl, isso ocorre quando há, aproximadamente, 360 g de sal por 1000 mL de água. Se adicionarmos 500 g de NaCl em 1000 mL de água, nas mesmas condições acima, estaremos preparando uma solução que será classificada como uma:
+
+a)&nbsp; solução saturada sem sal precipitado. &nbsp;&nbsp; b) solução saturada com sal precipitado. 
+
+c)&nbsp;solução supersaturada. &nbsp;&nbsp;d) solução insaturada. &nbsp;&nbsp;e) solução supersaturada instável.
+
+
+
+**08.** (Mackenzie) Qual a concentração, em g/L, da solução obtida ao se dissolverem 4 g de cloreto de sódio em 50 cm3 de água?
+
+a)&nbsp;200 g/L &nbsp;&nbsp;&nbsp; b) 20 g/L &nbsp;&nbsp;&nbsp; c) 0,08 g/L &nbsp;&nbsp;&nbsp; d) 12,5 g/L &nbsp;&nbsp;&nbsp; e) 80 g/L
+
+**09.** (UNEB) O soro caseiro consiste em uma solução aquosa de cloreto de sódio (3,5 g/L) e de sacarose (11 g/L). As massas de cloreto de sódio e de sacarose necessárias para se preparar 500 mL de soro caseiro são, respectivamente:
+
+a)&nbsp;17,5 g e 55 g &nbsp;&nbsp;&nbsp; b) 175 g e 550 g &nbsp;&nbsp;&nbsp; c) 1 750 mg e 5 500 mg &nbsp;&nbsp;&nbsp; 
+
+d)&nbsp; 17,5 mg e 55 mg &nbsp;&nbsp;&nbsp; e) 175 mg e 550 mg
+
+**10.** (PUC-Campinas) Evapora-se totalmente o solvente de 250 mL de uma solução aquosa de MgCl2 de concentração 8,0 g/L. Quantos gramas de soluto são obtidos?
+
+a)&nbsp;8,0 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; b) 6,0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) 4,0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) 2,0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) 1,0
+
+**11.** O ato de doar sangue ajuda a salvar vidas. O sangue é imprescindível, e não pode ser substituído por outro produto. O volume de sangue doado é, em média, 450 mL. Considere que um doador adulto tem no máximo 5 L de sangue, e uma mulher apresenta, em média, 40 mg de ferro por kg de peso.
+
+a)&nbsp;Calcule a quantidade de ferro presente em uma mulher de 60 kg.
+
+b)&nbsp;Se esta mulher realizar a doação de 450 mL de sangue, qual a concentração de ferro em
+g/L na bolsa de sangue doada? 
+
+c)&nbsp;A concentração de ferro no sangue restante no corpo da mulher logo após a doação
+mudou? Explique. 
+
+d)&nbsp;Faça uma pesquisa e monte um informativo que possa ser disponibilizado na internet
+sobre a doação de sangue. Descreva a importância deste ato, quem pode doar e quais os
+impedimentos para doação.
+
