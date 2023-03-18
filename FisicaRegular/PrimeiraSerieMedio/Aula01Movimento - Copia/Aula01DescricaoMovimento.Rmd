@@ -1,0 +1,116 @@
+---
+title: |
+  <a id="home" href="../../../index.html"><img class="logo" src="logo//logo.jpg"  alt="Home"></a>
+        <br>
+   <small>Física 1ª Série</small>
+   <br>
+  <small>Aula 01: Descrição dos movimentos</small>
+author: "Jailson Duarte <br>" 
+date: "`r format(Sys.time(), '%d %B de %Y')`"
+encoding: UTF-8
+lang: pt-BR
+csl: ReferenciasABNT.csl
+bibliography: BibliografiaApresentacao.bib
+transition: rotate
+output: 
+  revealjs::revealjs_presentation:
+      
+    incremental: true
+    css: styles.css
+    fig_caption: true
+    self_contained: false
+    center: true
+    slideNumber: true
+    slide_level: 3
+    toc: true
+    mathjax: true
+    includes:
+      in_header: header.html
+    reveal_plugins: 
+      - zoom
+      - notes
+      - chalkboard
+      - menu
+    reveal_options:
+      chalkboard:
+        theme: chalkboard  
+        toggleNotesButton: true
+        menu:
+          numbers: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## Importante {.texto .posicao}
+
+O conteúdo desta Aula foi elaborado com base no Livro:
+
+![Livro Base da Aula](Figuras//livro1.jpg){width="40%"}
+
+## Descrição dos movimentos {.texto .posicao}
+
+- Uma das ações mais comuns realizadas pelos seres humanos é a prática esportiva,
+e relacionada a ela está o movimento;
+
+- A descrição detalhada de como ocorrem os movimentos pode ser de grande valia, ajudando na prevenção de acidentes e contusões e na melhora da performance;
+
+- Neste Tema vamos estudar como o movimento ocorre, mas sem nos preocuparmos com suas causas, que é campo de estudo da Cinemática.
+
+## Referencial e movimento relativo {.texto}
+
+![Referencial](Figuras/mov2.jpg){width="70%"}
+
+## Referencial e movimento relativo {.texto}
+
+- O Carro está em movimento em relação à placa. Por que?
+
+- A distância em relação a ela muda com o passar do tempo, ou seja, o carro tem sua posição variando ao longo do tempo.
+
+- A placa é o nosso **Referencial**: o corpo em relação ao qual observamos se
+há movimento ou não.
+
+## Corpo extenso e ponto material {.texto}
+
+![Corpo Extenso](Figuras/mov3.jpg){width="50%"}
+
+
+- As dimensões da bicicleta devem ser levadas em conta; ela é, então, um corpo extenso, ou seja, suas dimensões não são desprezíveis nessa situação. Quando as distâncias percorridas pela bicicleta são muito grandes, ela é um **ponto material**.
+
+
+## Trajetória {.texto}
+
+![Trajetória](Figuras/trajetoria.gif){width="50%"}
+
+- Ao representarmos geometricamente o percurso ou o caminho de um corpo em movimento estamos representando a trajetória, que pode ser definida como uma linha que conecta os pontos que o corpo percorreu em relação a um referencial.
+
+## Deslocamento {.texto}
+
+![Deslocamento](Figuras///velocidade1.gif){width="60%"}
+
+Podemos definir deslocamento escalar como a variação na posição de um corpo considerando a posição inicial e a posição final.
+
+$$\Delta S = S - S_0$$
+
+## Velocidade {.texto}
+
+![Velocidade](Figuras///velicidade2.gif){width="60%"}
+
+
+## Velocidade {.texto}
+
+$$v_m= \frac{\Delta S}{\Delta t} = \frac{S - S_0}{t-t_0}$$
+
+
+
+## ![](Figuras///atividades.jpg){width="30%"}
+
+01. Um carro percorreu 200 km em 4 horas. Qual foi a sua velocidade média?
+
+
+02. Uma bicicleta percorreu 30 km em 2 horas. Qual foi a sua velocidade média?
+
+03. Um carro percorreu 100 km em 2 horas e 30 minutos. Qual foi a sua velocidade média?
+
+04. Um corredor completou uma maratona de 42 km em 3 horas e 30 minutos. Qual foi a sua velocidade média?
+

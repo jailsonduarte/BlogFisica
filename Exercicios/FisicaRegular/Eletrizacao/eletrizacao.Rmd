@@ -1,0 +1,75 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+
+![](imagens///logoIvan.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Física &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** #ª Série Ensino Médio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+# \centering Cargas Elétricas - Eletrização
+
+**01.** Qual é a unidade de carga elétrica no Sistema Internacional de Unidades (SI)?
+Resposta: A unidade de carga elétrica no SI é o coulomb (C).
+
+**02** O que é carga elétrica?
+Resposta: Carga elétrica é uma propriedade física fundamental da matéria que resulta de uma diferença no número de elétrons e prótons em um átomo ou molécula. A carga elétrica pode ser positiva, negativa ou neutra.
+
+**03.** Como a carga elétrica é medida?
+Resposta: A carga elétrica é medida em coulombs (C) usando um instrumento chamado de eletroscópio ou por meio de um medidor de carga elétrica.
+
+**04.** Qual é a lei da conservação da carga elétrica?
+Resposta: A lei da conservação da carga elétrica afirma que a carga elétrica total em um sistema isolado permanece constante, ou seja, a carga não pode ser criada ou destruída, apenas transferida de um objeto para outro.
+
+
+**05.** Qual é a carga elétrica de um elétron?
+Resposta: A carga elétrica de um elétron é -1,6 x 10^-19 C.
+
+**06.** Se um objeto tem uma carga elétrica de -2,0 x 10^-6 C e outro objeto tem uma carga elétrica de +4,0 x 10^-6 C, qual é a carga total do sistema?
+Resposta: A carga total do sistema é +2,0 x 10^-6 C, pois as cargas elétricas de sinais opostos se cancelam.
+
+**07.**Qual é o valor da carga elétrica mínima que pode existir em um sistema devido à quantização da carga elétrica?
+Resposta: A carga elétrica mínima que pode existir em um sistema devido à quantização da carga elétrica é a carga do elétron, que é -1,6 x 10^-19 C.
+
+**08.**Se um objeto tem uma carga elétrica de +3,2 x 10^-19 C, qual é o número mínimo de elétrons que o objeto poderia ter?
+Resposta: O número mínimo de elétrons que o objeto poderia ter é 2, pois a carga elétrica total dos elétrons é -3,2 x 10^-19 C e a carga de um elétron é -1,6 x 10^-19 C.
+
+**09.**Se um objeto tem uma carga elétrica de +4,8 x 10^-19 C, qual é o número mínimo de elétrons que o objeto poderia ter?
+Resposta: O número mínimo de elétrons que o objeto poderia ter é 3, pois a carga elétrica total dos elétrons é -4,8 x 10^-19 C e a carga de um elétron é -1,6 x 10^-19 C.
+
+Se um objeto tem uma carga elétrica de +2,4 x 10^-18 C, qual é o número mínimo de elétrons que o objeto poderia ter?
+Resposta: O número mínimo de elétrons que o objeto poderia ter é 15, pois a carga elétrica total dos elétrons é -2,4 x 10^-18 C e a carga de um elétron é -1,6 x 10^-19 C.
+
+Se um objeto tem uma carga elétrica de -1,28 x 10^-18 C, qual é o número mínimo de elétrons que o objeto poderia ter?
+Resposta: O número mínimo de elétrons que o objeto poderia ter é 8, pois a carga elétrica total dos elétrons é 1,28 x 10^-18 C e a carga de um elétron é -1,6 x 10^-19 C.
+
+Qual é a razão pela qual a carga elétrica é quantizada?
+Resposta: A carga elétrica é quantizada porque a carga elétrica é transportada por elétrons, que têm uma carga elétrica elementar fixa e não podem ser divididos em partes menores. Como resultado, a carga elétrica total em um sistema deve ser um múltiplo inteiro da carga elementar.
+
+Como a quantização da carga elétrica afeta o comportamento dos elétrons em um material condutor?
+
+
+

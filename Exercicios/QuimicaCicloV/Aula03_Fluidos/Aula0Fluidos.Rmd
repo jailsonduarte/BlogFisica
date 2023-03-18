@@ -1,0 +1,71 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoMD.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+![](imagens///logoMD.jpg){width="90%"}
+
+
+| **COMPONENTE CURRICULAR:** Física &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** CICLO V &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+# \centering Fluidos
+
+
+**01.** Os Fluidos são elementos que possuem a propriedade natural de escoar e de se deslocar com certa facilidade. Descreva as principais característics dos fluidos e cite alguns exemplos.
+
+\vspace{1cm}
+
+**02.** A densidade é uma propriedade que permite identificar a relação entre massa e  volume de uma substância. Em reção a este assunto responda:
+
+a) Qual a expressão matemática usada para determinar a densidade de uma substância?
+\vspace{1cm}
+b) Com relação à prata e o ouro, o que podemos afirmar a respeito de suas densidades?
+\vspace{1cm}
+c) O que podemos afirmar sobre a massa específica de um objeto?
+\vspace{1cm}
+
+**03.** Descreva o Princípio elaborado por Arquimedes para explicar a força de empuxo.
+
+\vspace{1cm}
+
+**04.** Como podemos calcular o empuxo que age sobre um corpo?
+
+\vspace{0.8cm}
+
+**05.** O empuxo exercido sobre um corpo imerso em um líquido depende:
+
+a) do volume do líquido deslocado e da densidade do corpo
+b) da densidade e do volume do corpo
+c) do volume e da densidade do líquido deslocado
+d) somente do volume do líquido deslocado
+e) somente da densidade do líquido deslocado
+
+
+**06.** Uma lata tampada com dois orifícios encontra-se parada, imersa em um recipiente com água. O orifício superior comunica-se com o exterior através de uma mangueira. Ao injetarmos ar pela mangueira, é correto afirmar que a lata:
+
+a) afundará
+b) subirá
+c) aumentará de peso
+d) permanecerá parada
+e) receberá ar pelo orifício inferior

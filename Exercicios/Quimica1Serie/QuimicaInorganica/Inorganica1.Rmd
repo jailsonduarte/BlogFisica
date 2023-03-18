@@ -1,0 +1,140 @@
+---
+title: ''
+author: ''
+encoding: "UTF-8"
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12 pt
+fontcolor: red
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+- \usepackage{chemmacros}
+- \usepackage{chemmacros}
+- \chemsetup{modules=all}
+- \chemsetup{formula=chemformula}
+---
+<style type="text/css">
+  body{
+   color: blue;
+}
+</style>
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 1ª SÉRIE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+<p style="color:red"> 
+
+# \centering Química inorgânica
+
+
+**01.** Em condições ambientes, o cloreto de sódio, \ch{NaCl}, é sólido, e o cloreto de hidrogênio, \ch{HCl}, um gás. Ambos não conduzem corrente elétrica nessas condições, mas podem se tornar eletrólitos quando dissolvidos em água. Explique por que isso ocorre.
+
+
+**02.** (PUC-SP) A respeito das substâncias denominadas ácidos, um estudante anotou as seguintes características:
+
+I) têm poder corrosivo;
+
+II) são capazes de neutralizar bases;
+
+III) são compostos por dois elementos químicos;
+
+IV) formam soluções aquosas condutoras de corrente elétrica.
+
+Quais Características são consideradas corretas?
+
+
+**03.** 4. Escreva o nome dos seguintes ácidos:
+
+a) \ch{HCl} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{HBr}
+
+
+b) \ch{HNO3} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{HNO2}
+
+
+**04.** Escreva o nome das seguintes bases:
+
+
+a) \ch{LiOH} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{Be(OH)2}
+
+
+b) \ch{CuOH} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{Cu(OH)2}
+
+
+
+
+**05.** Para combater a acidez estomacal causada pelo excesso de ácido clorídrico, costuma-se ingerir um antiácido. Das substâncias abaixo, encontradas no cotidiano das pessoas, a mais indicada para combater a acidez é:
+
+a) refrigerante.
+b) suco de laranja.
+c) água com limão.
+d) vinagre.
+e) leite de magnésia.
+
+
+
+**06.** Uma base forte deve ter ligado ao grupo  \ch{OH-}:
+
+a) um elemento muito eletropositivo.
+
+b) um elemento muito eletronegativo.
+
+c) um semimetal.
+
+d) um metal que dê 3 elétrons.
+
+e) um ametal.
+
+**07.** Escreva o nome dos seguintes sais:
+
+a)  \ch{Na2CO3}
+
+
+b)  \ch{KNaSO4}
+
+
+c)  \ch{NaHCO3}
+
+**08.**  Os sais são produtos também obtidos pela reação de neutralização total ou parcial dos hidrogênios ionizáveis dos ácidos com as bases ou hidróxidos, segundo a reação genérica:
+
+\ch{Ácido + Base -> Sal + Água}
+
+Com base nessa afirmação, qual é o único ácido que não apresenta todos os seus produtos possíveis relacionados?
+
+a) clorídrico só produz o sal neutro cloreto.
+b) nítrico só produz o sal neutro nitrato.
+c) fosfórico só produz o sal neutro fosfato.
+d) sulfídrico pode produzir tanto o sal neutro sulfeto como o sal ácido, sulfeto ácido ou hidrogenossulfeto.
+e) sulfúrico pode produzir tanto o sal neutro sulfato como o sal ácido, sulfato ácido ou hidrogenossulfato.
+
+
+**09.**  Escreva o nome dos seguintes óxidos:
+
+a) \ch{CO2} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{N2O3}
+
+b) \ch{Al2O3} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{Na2O}
+
+
+b) \ch{Cu2O} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{CuO}
+
+
+c) \ch{FeO} &nbsp;&nbsp; e &nbsp;&nbsp; \ch{Fe2O3}
+
+

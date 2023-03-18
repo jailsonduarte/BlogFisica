@@ -3,12 +3,12 @@ title: ''
 author: ''
 encoding: UTF-8
 output:
+  pdf_document: default
   html_document:
     df_print: paged
     css: css/estilo.css
     includes:
       in_header: header.html
-  pdf_document: default
 geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
 fontsize: 12pt
 header-includes:
@@ -23,7 +23,7 @@ header-includes:
 ---
 
 
-![](imagens///logoGetulio.jpg){width="100%"}
+![](imagens///logoIvan.jpg){width="100%"}
 
 
 | **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              

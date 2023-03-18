@@ -1,0 +1,104 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12 pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+- \usepackage{chemmacros}
+- \usepackage{chemmacros}
+- \chemsetup{modules=all}
+- \chemsetup{formula=chemformula}
+---
+
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 2ª ANO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+# \centering ESTUDO DOS GASES
+
+
+**01.** Uma bolha de ar forma-se no fundo de um lago, em que a pressão é de 2,2 atm. A essa
+pressão, a bolha tem volume de 3,6 $cm^3$. Que volume terá essa bolha quando subir à
+superfície, na qual a pressão atmosférica é de 0,9 atm, admitindo-se que a massa de gás
+contida no interior da bolha e a temperatura permanecem constantes?
+
+
+
+**02.** Um balão selado, quando cheio de ar, tem volume de 50,0 $m^3$ a 295 K e a uma dada
+pressão. O balão é aquecido. Assumindo-se que a pressão é constante, a que temperatura
+estará o balão quando seu volume for 60,0 $m^3$? 
+
+
+
+**03.** Um balão A contém 8,8 g de \ch{CO2} e um balão B contém \ch{N2}. Sabendo que os dois balões
+têm igual capacidade e apresentam a mesma pressão e temperatura, calcule a massa de \ch{N2} no balão B. (Dados: massas atômicas: C = 12; O = 16; N = 14)
+
+**04.** Qual o volume de um balão contendo 44,0 g de gás hélio, utilizado em parques de diversões ou em propaganda, num dia em que a temperatura é 305 K, e a pressão do balão é 2,50 atm? (Dados: R = 0,082 atm L mol–1 K–1; massa molar do He = 4,0 g \ch{mol^{–1}}.
+ 
+
+
+**05.** Considere os volumes molares determinados em duas situações:
+
+I — 1 atm e 298 K = 24,5 L \ch{mol^{–1}}
+
+II — 1 bar = $10^{–5}$ Pa e 273 K = 22,71 L \ch{mol^{–1}}
+
+Quais os volumes ocupados por uma amostra de 10 mol de gás X nas duas situações?
+
+
+**06.** Um dos poluentes mais comuns é o monóxido de carbono (CO). Uma amostra contendo 4
+mol desse gás exerce uma pressão de 2,46 atm a 300K. Nessas condições, determine o
+volume ocupado pelo gás. (Dado: R = 0,082 atm L \ch{mol^{–1}} \ch{K^{–1}}.
+
+
+**07.** Em hospitais, o gás oxigênio (O2) é usado em algumas terapias do aparelho respiratório.
+Nesses casos, ele é armazenado em cilindros com volume de 60 L,a uma pressão de 150 atm.
+Considerando a temperatura constante, responda às questões:
+
+a) Qual volume ocuparia o oxigênio contido em 1 cilindro, a uma pressão de 760 mm Hg?
+
+b) Se o oxigênio for administrado a um paciente à velocidade de 8,0 L por minuto, num recinto em que a pressão é de 1 atm,  quanto tempo seria necessário para esvaziar o cilindro?
+
+**08.** (UFBA) 30 g de uma substância pura, no estado gasoso, ocupam um volume de 12,3 L à
+temperatura de 327 °C e à pressão de 3 atm.  Calcule a massa molecular dessa substância.
+
+
+
+
+**09.** Uma amostra de gás nitrogênio está submetida a 0,3 atm em um recipiente de 2,0 L. Mantendo-se
+a temperatura fixa, o volume é alterado até a pressão atingir 1,2 atm. Qual é o volume final?
+
+
+
+**10.** Uma amostra de gás oxigênio está num recipiente de 5,0 L e sua pressão é 130 kPa. Se, isotermicamente, essa amostra é comprimida até o volume de 0,5 L, qual será sua pressão final?
+
+
+**11.** De acordo com a Lei de Robert Boyle (1660), para proporcionar um aumento na pressão
+de uma determinada amostra gasosa numa transformação isotérmica, é necessário:
+
+a) aumentar o seu volume. &nbsp;&nbsp;d) diminuir o seu volume.
+
+b) diminuir a sua massa. &nbsp;&nbsp; e) aumentar a sua massa.
+
+c) aumentar a sua temperatura.

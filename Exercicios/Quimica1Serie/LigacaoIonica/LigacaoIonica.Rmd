@@ -1,0 +1,197 @@
+---
+title: ''
+author: ''
+encoding: "UTF-8"
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12 pt
+fontcolor: red
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+- \usepackage{chemmacros}
+- \usepackage{chemmacros}
+- \chemsetup{modules=all}
+- \chemsetup{formula=chemformula}
+---
+<style type="text/css">
+  body{
+   color: blue;
+}
+</style>
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 1ª SÉRIE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+<p style="color:red"> 
+
+# \centering Química inorgânica
+
+
+**01.** Considere os íons: **cátions**: \ch{K+}, \ch{Ca^{2+}}, \ch{Fe^3+}; **anions:** \ch{F-}, \ch{O^{2-}}. Escreva as seis fórmulas resultantes da combinação de cada tipo de cátion com cada tipo de ânion.
+
+
+
+**02.** Os átomos de \ch{13Al} e \ch{16S} podem originar íons. Determine a carga dos íons estáveis de cada um desses elementos. 
+
+
+
+**03.** Combine os pares de elementos e escreva a fórmula do composto resultante:
+
+a) \ch{12Mg} e \ch{8O}; &nbsp;&nbsp; d) \ch{13Al} e \ch{9F};
+
+b) \ch{11Na} e \ch{16S}; &nbsp;&nbsp; e) \ch{12Mg} e \ch{7N};
+
+c) \ch{20Ca} e \ch{9F}; &nbsp;&nbsp; f) \ch{11Na} e \ch{1H}.
+
+
+**04.** (PUC-MG) Um elemento X (Z = 20) forma com Y um composto de fórmula \ch{X3Y2}. O número
+atômico de Y é:
+
+a) 7. &nbsp;&nbsp; b) 9. &nbsp;&nbsp; c) 11. &nbsp;&nbsp; d) 12. &nbsp;&nbsp; e) 18.
+ 
+
+
+**05.** Classifique como verdadeiro ou falso cada item a seguir:
+
+a. Cátion é o íon positivo.
+
+b. Ânion é o íon negativo.
+
+c. Átomos com 1, 2 ou 3 elétrons na última camada tendem a ganhar elétrons.
+
+d. A ligação iônica geralmente ocorre entre 2 elementos não metálicos.
+
+e. Todo composto iônico é sólido em condições ambientes.
+
+f. Todo composto iônico possui baixa temperatura de fusão.
+
+
+
+**06.** De modo geral, os compostos que possuem ligações iônicas [identifique as afirmações corretas):
+
+a. são solúveis em derivados do petróleo.
+
+b. são encontrados na natureza no estado sólido.
+
+c. apresentam pontos de ebulição elevados e pontos de fusão baixos.
+
+d. são duros e quebradiços.
+
+e. apresentam alta condutividade elétrica em solução aquosa
+
+**07.** UCDB-MS) Para adquirir configuração eletrônica de gás nobre,	o	átomo de número atômico 16 deve:
+
+a)perder dois elétrons.   &nbsp;&nbsp; b) receber seis elétrons.  &nbsp;&nbsp; c) perder quatro elétrons.  &nbsp;&nbsp; 
+
+d)receber dois elétrons.   &nbsp;&nbsp; e) perder seis elétrons.
+
+**08.** Os elementos X e Y, do mesmo período da tabela periódica, têm configurações eletrônicas
+s2p5 e s1, respectivamente, em suas camadas de valência.
+
+a)	A que	grupos	da tabela periódica pertencem os elementos X e Y?
+
+b) Qual será a fórmula do composto constituído pelos elementos X e Y? E o tipo de ligação formada?
+Justifique suas respostas.
+
+
+**09.** Um elemento de configuração $1s^2\; 2s^2\; 2p^6\; 3s^2\;  3p^5$ possui forte tendência para:
+
+a) perder	5	elétrons. &nbsp;&nbsp; b)	perder	1	elétron. &nbsp;&nbsp; c)	perder	2	elétrons.	&nbsp;&nbsp; d)	ganhar	2	elétrons. &nbsp;&nbsp; e)	ganhar	1	elétron.
+
+
+**09.** A	maioria dos elementos químicos são metais. Comparando-se as características de metais e de não metais situados em um mesmo período da tabela periódica, é CORRETO afirmar que os átomos de metais
+têm: 
+
+a) menores tamanhos. 
+
+b) maior eletronegatividade.
+
+c) menor número de elétrons de valência.
+
+d) maiores energias de ionização.
+
+
+
+**10.** Os telefones celulares, telefones sem fio, relógios, controles remotos, são alguns dos equipamentos que funcionam com baterias à base de Lítio (Li). Considerando o íon \ch{Li+} e a posição do elemento na tabela periódica, é incorreto afirmar que esse íon:
+
+a)	apresenta	1	nível completamente preenchido.
+
+b)	tem um núcleo com	3	prótons.
+
+c) tem a mesma configuração eletrônica que o átomo de Hélio.
+
+d) apresenta números iguais de prótons e elétrons.
+
+e) quando se liga com o íon cloreto, forma um composto iônico.
+
+**11.** Um elemento E tem, na sua camada de valência,	a	configuração	$4s^2 \; 4p^4$. Sobre o elemento
+E, é falso afirmar que:
+
+a) pertence à família dos calcogênios na tabela periódica.
+
+b)	está localizado no quarto período,	grupo	6A da tabela periódica.
+
+c) é um elemento representativo na classificação periódica.
+
+d)	tende	a	receber	2	elétrons	e	formar	o	íon	\ch{E^2-}.
+
+e)	forma com	elementos	X	do	grupo	1A compostos iônicos de fórmula $XE_2$
+
+
+**12** Dos compostos abaixo, qual não realiza ligação iônica?
+
+a) NaCl &nbsp;&nbsp; b) \ch{Mg(Cl)2} &nbsp;&nbsp; c) CaO &nbsp;&nbsp; d) HCl &nbsp;&nbsp; e) \ch{Na2O}
+
+
+**13**. A propriedade que pode ser atribuída à maioria dos compostos iônicos (isto é, aos compostos caracterizados predominantemente por ligações iônicas entre as partículas) é:
+
+a) dissolvidos em água, formam soluções ácidas.
+
+b) dissolvem-se bem em gasolina, diminuindo sua octanagem.
+
+c) fundidos (isto é, no estado líquido), conduzem corrente elétrica.
+
+d) possuem baixos pontos de fusão e ebulição.
+
+e) são moles, quebradiços e cristalinos.
+
+**14** Para interpretar as propriedades das diversas substâncias é necessário conhecer as ligações entre os átomos e as ligações entre as respectivas moléculas. Em relação à ligação entre átomos pode afirmar-se que…
+
+a) entre átomos ligados predominam as forças de atração.
+
+b) quando se forma uma ligação entre átomos o sistema formado atinge o máximo de energia.
+
+c) as atrações e repulsões numa molécula não são só de natureza eletrostática.
+
+d) entre átomos ligados há equilíbrio entre as atrações e as repulsões eletrostáticas.
+
+
+**15**. Com base nas propriedades dos metais, assinale a afirmativa CORRETA.
+
+a) Os metais não são bons condutores de calor e eletricidade.
+
+b) As substâncias formadas por ligações metálicas possuem ponto de ebulição menor que as formadas por ligações iônicas, porque as ligações iônicas são mais fortes que as ligações metálicas.
+
+c) O sódio metálico, ao ser colocado em contato com a água, sofre reação de modo a formar um composto iônico denominado hidróxido de sódio.
+
+d) Os metais formam ligações iônicas uns com os outros, denominadas de ligas metálicas.
+
+</p>

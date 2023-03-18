@@ -1,0 +1,33 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoMD.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+\pagenumbering{gobble}
+\centering
+![](imagens///Física Jailson Duarte.jpg){width="50%" height="50%"}
+\centering
+![](imagens///Livro1.jpg){width="90%" height="90%"}
+\color{red} \rule{\linewidth}{0.5mm}
+\Huge
+LIVRO 3
+
+

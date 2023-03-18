@@ -1,0 +1,46 @@
+---
+title: ''
+author: ''
+encoding: "UTF-8"
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoMD.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+![](imagens///logoMD.jpg){width="90%"}
+
+
+| **COMPONENTE CURRICULAR:** Física &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** CICLO V &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+# \centering MATEMÁTICA: estudo das Frações
+
+
+**01.** Em certo país, os trabalhadores recebem dois salários
+mínimos em dezembro: o salário normal e o 13º salário. Se
+a pessoa trabalhou os 12 meses do ano, os dois salários
+serão iguais. Se a pessoa trabalhou uma fração do ano, o 13º
+salário corresponderá a essa fração do salário normal. Se o
+salário normal de uma pessoa é 516 reais e ela trabalhou 7
+meses nesse ano, quanto ela vai receber de 13º salário?
+
+
+**02.** Com 12 litros de leite, quantas garrafas de 2/3 de litros
+poderão ser cheias?

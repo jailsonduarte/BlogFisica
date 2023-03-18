@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Jailson Duarte  " />
+  <title>   Física 1ª Série   Aula 01: Descrição dos movimentos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal .slide-menu-button {
+      left: 105px !important;
+    }
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="styles.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <div id="header-footer">
+      <a href="../../../index.html"><img class="slide-logo" src="logo/logo.jpg"/></a>
+      <a href="../../../index.html"><img class="slide-logo2" src="logo/Home.jpg"/></a>
+      <p class="slide-footer">BlogFisica - Organizador: Jailson Duarte</p>
+
+
+    </div>
+
+    <script src="Aula01DescricaoMovimento_files/header-attrs-2.19.2/header-attrs.js"></script>
+    <link href="Aula01DescricaoMovimento_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+    <link href="Aula01DescricaoMovimento_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title"><p><a id="home" href="../../../index.html"><img class="logo" src="logo/logo.jpg"  alt="Home"></a>
+<br> <small>Física 1ª Série</small> <br> <small>Aula 01: Descrição dos
+movimentos</small></p></h1>
+    <h2 class="author">Jailson Duarte <br></h2>
+    <h3 class="date">01 março de 2023</h3>
+</section>
+
+<section id="importante" class="title-slide slide level2 texto posicao">
+<h2 class="texto posicao">Importante</h2>
+<p>O conteúdo desta Aula foi elaborado com base no Livro:</p>
+<figure>
+<img data-src="Figuras/livro1.jpg" style="width:40.0%"
+alt="Livro Base da Aula" />
+<figcaption aria-hidden="true">Livro Base da Aula</figcaption>
+</figure>
+</section>
+
+<section id="descrição-dos-movimentos"
+class="title-slide slide level2 texto posicao">
+<h2 class="texto posicao">Descrição dos movimentos</h2>
+<ul>
+<li class="fragment"><p>Uma das ações mais comuns realizadas pelos seres
+humanos é a prática esportiva, e relacionada a ela está o
+movimento;</p></li>
+<li class="fragment"><p>A descrição detalhada de como ocorrem os
+movimentos pode ser de grande valia, ajudando na prevenção de acidentes
+e contusões e na melhora da performance;</p></li>
+<li class="fragment"><p>Neste Tema vamos estudar como o movimento
+ocorre, mas sem nos preocuparmos com suas causas, que é campo de estudo
+da Cinemática.</p></li>
+</ul>
+</section>
+
+<section id="referencial-e-movimento-relativo"
+class="title-slide slide level2 texto">
+<h2 class="texto">Referencial e movimento relativo</h2>
+<figure>
+<img data-src="Figuras/mov2.jpg" style="width:70.0%"
+alt="Referencial" />
+<figcaption aria-hidden="true">Referencial</figcaption>
+</figure>
+</section>
+
+<section id="referencial-e-movimento-relativo-1"
+class="title-slide slide level2 texto">
+<h2 class="texto">Referencial e movimento relativo</h2>
+<ul>
+<li class="fragment"><p>O Carro está em movimento em relação à placa.
+Por que?</p></li>
+<li class="fragment"><p>A distância em relação a ela muda com o passar
+do tempo, ou seja, o carro tem sua posição variando ao longo do
+tempo.</p></li>
+<li class="fragment"><p>A placa é o nosso <strong>Referencial</strong>:
+o corpo em relação ao qual observamos se há movimento ou não.</p></li>
+</ul>
+</section>
+
+<section id="corpo-extenso-e-ponto-material"
+class="title-slide slide level2 texto">
+<h2 class="texto">Corpo extenso e ponto material</h2>
+<figure>
+<img data-src="Figuras/mov3.jpg" style="width:50.0%"
+alt="Corpo Extenso" />
+<figcaption aria-hidden="true">Corpo Extenso</figcaption>
+</figure>
+<ul>
+<li class="fragment">As dimensões da bicicleta devem ser levadas em
+conta; ela é, então, um corpo extenso, ou seja, suas dimensões não são
+desprezíveis nessa situação. Quando as distâncias percorridas pela
+bicicleta são muito grandes, ela é um <strong>ponto
+material</strong>.</li>
+</ul>
+</section>
+
+<section id="trajetória" class="title-slide slide level2 texto">
+<h2 class="texto">Trajetória</h2>
+<figure>
+<img data-src="Figuras/trajetoria.gif" style="width:50.0%"
+alt="Trajetória" />
+<figcaption aria-hidden="true">Trajetória</figcaption>
+</figure>
+<ul>
+<li class="fragment">Ao representarmos geometricamente o percurso ou o
+caminho de um corpo em movimento estamos representando a trajetória, que
+pode ser definida como uma linha que conecta os pontos que o corpo
+percorreu em relação a um referencial.</li>
+</ul>
+</section>
+
+<section id="deslocamento" class="title-slide slide level2 texto">
+<h2 class="texto">Deslocamento</h2>
+<figure>
+<img data-src="Figuras/velocidade1.gif" style="width:60.0%"
+alt="Deslocamento" />
+<figcaption aria-hidden="true">Deslocamento</figcaption>
+</figure>
+<p>Podemos definir deslocamento escalar como a variação na posição de um
+corpo considerando a posição inicial e a posição final.</p>
+<p><span class="math display">\[\Delta S = S - S_0\]</span></p>
+</section>
+
+<section id="velocidade" class="title-slide slide level2 texto">
+<h2 class="texto">Velocidade</h2>
+<figure>
+<img data-src="Figuras/velicidade2.gif" style="width:60.0%"
+alt="Velocidade" />
+<figcaption aria-hidden="true">Velocidade</figcaption>
+</figure>
+</section>
+
+<section id="velocidade-1" class="title-slide slide level2 texto">
+<h2 class="texto">Velocidade</h2>
+<p><span class="math display">\[v_m= \frac{\Delta S}{\Delta t} = \frac{S
+- S_0}{t-t_0}\]</span></p>
+</section>
+
+<section id="section" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<ol type="1">
+<li class="fragment"><p>Um carro percorreu 200 km em 4 horas. Qual foi a
+sua velocidade média?</p></li>
+<li class="fragment"><p>Uma bicicleta percorreu 30 km em 2 horas. Qual
+foi a sua velocidade média?</p></li>
+<li class="fragment"><p>Um carro percorreu 100 km em 2 horas e 30
+minutos. Qual foi a sua velocidade média?</p></li>
+<li class="fragment"><p>Um corredor completou uma maratona de 42 km em 3
+horas e 30 minutos. Qual foi a sua velocidade média?</p></li>
+</ol>
+</section>
+    </div>
+  </div>
+
+  <script src="Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: true,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        menu: {
+   
+    
+    
+    
+    
+    
+    
+ 
+          custom: false,
+          themes: false,
+          transitions: false
+        },
+
+
+
+        chalkboard: {
+          toggleNotesButton: true,
+          theme: 'chalkboard',
+        },
+
+        keyboard: {
+          67: function() { RevealChalkboard.toggleNotesCanvas() },    // toggle notes canvas when 'c' is pressed
+          66: function() { RevealChalkboard.toggleChalkboard() }, // toggle chalkboard when 'b' is pressed
+          46: function() { RevealChalkboard.clear() },    // clear chalkboard when 'DEL' is pressed
+           8: function() { RevealChalkboard.reset() },    // reset chalkboard data on current slide when 'BACKSPACE' is pressed
+          68: function() { RevealChalkboard.download() }, // downlad recorded chalkboard drawing when 'd' is pressed
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
+          { src: 'Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/plugin/zoom-js/zoom.js', async: true },
+          { src: 'Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/plugin/chalkboard/chalkboard.js', async: true },
+          { src: 'Aula01DescricaoMovimento_files/reveal.js-3.3.0.1/plugin/menu/menu.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

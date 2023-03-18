@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Jailson Duarte  " />
+  <title>   Ciências da Natureza e suas Tecnologias - Química 1ª Série   Ligações Químicas</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="LigacoesQuimicas_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="LigacoesQuimicas_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="styles.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <div id="header-footer">
+      <a href="../../../index.html"><img class="slide-logo" src="logo/logo.jpg" ></a>
+      <a href="../../../index.html"><img class="slide-logo2" src="logo/Home.jpg" ></a>
+      
+      <p class="slide-footer">BlogFisica - Organizador: Jailson Duarte</p>
+
+
+    </div>
+
+    <script src="LigacoesQuimicas_files/header-attrs-2.14/header-attrs.js"></script>
+    <link href="LigacoesQuimicas_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+    <link href="LigacoesQuimicas_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title"><p><a id="home" href="../../../index.html"><img class="logo" src="logo/logo.jpg"  alt="Home"></a>
+<br> <small>Ciências da Natureza e suas Tecnologias - Química 1ª
+Série</small> <br> <small>Ligações Químicas</small></p></h1>
+    <h2 class="author">Jailson Duarte <br></h2>
+    <h3 class="date">01 setembro de 2022</h3>
+</section>
+
+<section id="importante" class="title-slide slide level2 texto posicao">
+<h2 class="texto posicao">Importante</h2>
+<p>O conteúdo desta Aula foi elaborado com base no Livro:</p>
+<figure>
+<img data-src="Figuras/livro1.jpg" style="width:40.0%"
+alt="Documento R Markdown" />
+<figcaption aria-hidden="true">Documento R Markdown</figcaption>
+</figure>
+</section>
+
+<section id="substâncias-e-misturas"
+class="title-slide slide level2 texto posicao">
+<h2 class="texto posicao">Substâncias e Misturas</h2>
+<ul>
+<li class="fragment"><p>Substâncias são formadas por agrupamentos de
+átomos ou moléculas que podem ser iguais ou diferentes. Moléculas podem
+ser formadas pela ligação entre dois ou mais átomos.</p></li>
+<li class="fragment"><p>Substâncias formadas por um único elemento
+químico são denominadas <strong>substâncias simples</strong>;</p></li>
+<li class="fragment"><p>Substâncias formadas por formadas por dois ou
+mais elementos são denominadas <strong>substâncias
+compostas</strong>.</p></li>
+</ul>
+</section>
+
+<section id="exemplo-substância-simples."
+class="title-slide slide level2 texto">
+<h2 class="texto">Exemplo Substância Simples.</h2>
+<img data-src="Figuras/simples.gif" style="width:50.0%" />
+<p class="fonte">
+<strong>Fonte</strong>: <a href="http://gtpinto.blogspot.com"
+class="uri">http://gtpinto.blogspot.com</a>
+</p>
+</section>
+
+<section id="exemplo-substância-composta"
+class="title-slide slide level2 texto">
+<h2 class="texto">Exemplo Substância Composta</h2>
+<img data-src="Figuras/composto.gif" style="width:50.0%" />
+<p class="fonte">
+<strong>Fonte</strong>: <a href="http://gtpinto.blogspot.com"
+class="uri">http://gtpinto.blogspot.com</a>
+</p>
+</section>
+
+<section id="mistura-homogênea-e-mistura-heterogênea"
+class="title-slide slide level2 texto">
+<h2 class="texto">Mistura Homogênea e Mistura Heterogênea</h2>
+<ul>
+<li class="fragment"><p>Quando diferentes substâncias se misturam, elas
+podem ser miscíveis ou não. Caso sejam miscíveis, a mistura formada por
+elas é classificada como <strong>mistura homogênea</strong>; caso
+contrário, é classificada como <strong>mistura
+heterogênea</strong>;</p></li>
+<li class="fragment"><p>Como é possível identificar uma mistura
+homogênea ou heterogênea sem saber se as substâncias que a compõem são
+miscíveis?</p></li>
+</ul>
+</section>
+
+<section id="mistura-homogênea-e-mistura-heterogênea-1"
+class="title-slide slide level2 texto">
+<h2 class="texto">Mistura Homogênea e Mistura Heterogênea</h2>
+<ul>
+<li class="fragment">Se for possível enxergar as substâncias em separado
+(chamada de fase visual), essa mistura é heterogênea. Se não for
+possível enxergar as substâncias de modo separado, essa mistura pode ser
+homogênea.</li>
+</ul>
+</section>
+
+<section id="mistura-homogênea-e-mistura-heterogênea-2"
+class="title-slide slide level2 texto">
+<h2 class="texto">Mistura Homogênea e Mistura Heterogênea</h2>
+<p><img data-src="Figuras/mistura1.jpg" style="width:50.0%" /></p>
+<p class="fonte">
+<strong>Fonte</strong>: <a href="https://vaiquimica.com.br/"
+class="uri">https://vaiquimica.com.br/</a>
+</p>
+</section>
+
+<section id="separação-de-misturas"
+class="title-slide slide level2 texto">
+<h2 class="texto">Separação de misturas</h2>
+<p>As misturas podem ser separadas por meio de diferentes processos, que
+dependem das características dos materiais misturados. Alguns fatores
+físicos e químicos são determinantes para as separações, como tamanho
+das partículas, temperaturas de ebulição e fusão, e principalmente a
+densidade.</p>
+</section>
+
+<section id="densidade" class="title-slide slide level2 texto">
+<h2 class="texto">Densidade</h2>
+<ul>
+<li class="fragment"><p><strong>Densidade</strong> é uma propriedade da
+matéria que relaciona a massa (m) e o volume (V) através da razão <span
+class="math inline">\(d=\frac{m}{v}\)</span>. No Sistema Internacional
+de Unidades (SI), a unidade de medida da densidade é <span
+class="math inline">\(kg/m^3\)</span>, na qual a massa é expressa em
+quilograma (kg) e o volume em metros cúbicos (m3).</p></li>
+<li class="fragment"><p>Podemos utilizar como unidade de medida de
+volume o mililitro (mL), que é a capacidade equivalente a 1 centímetro
+cúbico (<span class="math inline">\(cm^3\)</span>), e o grama como
+unidade de massa, de modo que a unidade de medida da densidade seja
+<span class="math inline">\(g/mL\)</span>, que é equivalente a <span
+class="math inline">\(g/cm^3\)</span>.</p></li>
+</ul>
+</section>
+
+<section id="como-podemos-obter-o-volume-de-pequenos-sólidos"
+class="title-slide slide level2 texto">
+<h2 class="texto">Como podemos obter o volume de pequenos sólidos?</h2>
+<ul>
+<li class="fragment">O volume de um pequeno sólido irregular pode ser
+determinado ao inseri-lo em uma proveta com volume inicialmente
+conhecido de água. A quantidade de água deslocada, depois da imersão do
+sólido, representa o volume desse objeto.</li>
+</ul>
+</section>
+
+<section id="como-podemos-obter-o-volume-de-pequenos-sólidos-1"
+class="title-slide slide level2 texto">
+<h2 class="texto">Como podemos obter o volume de pequenos sólidos?</h2>
+<p><img data-src="Figuras/densidade.jpg" style="width:50.0%" /></p>
+</section>
+
+<section id="métodos-de-separação-de-misturas"
+class="title-slide slide level2 texto">
+<h2 class="texto">Métodos de separação de misturas</h2>
+<p><strong>Catação</strong>: método que utiliza as mãos ou um artefato
+para separar componentes de diferentes tamanhos de uma mistura
+heterogênea formada por sólidos ou sólido e líquido.</p>
+<p><strong>Peneiração</strong>: método em que uma mistura heterogênea
+formada por sólidos ou por um sólido e um líquido atravessa uma
+peneira.</p>
+<p><strong>Ventilação</strong>: método que utiliza a força do vento para
+separar o componente de maior densidade de uma mistura heterogênea
+formada por sólidos.</p>
+</section>
+
+<section id="métodos-de-separação-de-misturas-1"
+class="title-slide slide level2 texto">
+<h2 class="texto">Métodos de separação de misturas</h2>
+<p><strong>Levigação</strong>: método que utiliza a força de um líquido
+para separar o componente de maior densidade de uma mistura heterogênea
+formada por sólidos.</p>
+<p><strong>Flotação</strong>: método em que um gás é adicionado a uma
+mistura formada por um sólido e um líquido para haver interação entre um
+deles e as bolhas e, posteriormente, a separação.</p>
+<p><strong>Separação magnética</strong>: método que utiliza um ímã para
+atrair o componente metálico de uma mistura.</p>
+</section>
+
+<section id="métodos-de-separação-de-misturas-2"
+class="title-slide slide level2 texto">
+<h2 class="texto">Métodos de separação de misturas</h2>
+<p><strong>Decantação</strong>: método que utiliza a diferença de
+densidade e ausência de solubilidade para separar os componentes de uma
+mistura heterogênea formada por líquidos ou sólido e líquido.</p>
+<p><strong>Centrifugação</strong>: é o método que utiliza uma centrífuga
+para acelerar a decantação;</p>
+<p><strong>Dissolução fracionada</strong>: método em que um líquido é
+adicionado a uma mistura heterogênea de sólidos com o objetivo de
+dissolver um deles.</p>
+</section>
+
+<section id="métodos-de-separação-de-misturas-3"
+class="title-slide slide level2 texto">
+<h2 class="texto">Métodos de separação de misturas</h2>
+<p><strong>Filtração simples</strong>: método em que uma mistura
+heterogênea formada por um sólido e um líquido atravessa um filtro para
+que haja a separação dos componentes.</p>
+<p><strong>Filtração a vácuo</strong>: método em que uma mistura
+heterogênea formada por um sólido e um líquido atravessa um filtro,
+caindo em um recipiente com vácuo.</p>
+<p><strong>Cristalização fracionada</strong>: método em que os
+diferentes solutos dissolvidos em um solvente são separados à medida que
+o solvente sofre evaporação. Esse método baseia-se na diferença de
+solubilidade.</p>
+</section>
+
+<section id="métodos-de-separação-de-misturas-4"
+class="title-slide slide level2 texto">
+<h2 class="texto">Métodos de separação de misturas</h2>
+<p><strong>Fusão fracionada</strong>: método em que aquecemos uma
+mistura homogênea formada por sólidos para separar os componentes em
+razão dos diferentes pontos de fusão;</p>
+<p><strong>Sublimação fracionada</strong>: método em que aquecemos uma
+mistura homogênea formada por sólidos, sendo um deles sublimável.</p>
+<p><strong>Destilação simples</strong>: método em que aquecemos uma
+mistura homogênea formada por sólido e líquido, sendo o líquido separado
+do sólido por vaporização seguida de condensação.</p>
+<p><strong>Destilação fracionada</strong>: método em que aquecemos uma
+mistura homogênea formada por líquidos para separá-los em razão dos
+diferentes pontos de ebulição.</p>
+</section>
+
+<section id="section" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<ol type="1">
+<li class="fragment">Um objeto de metal, de massa 14,5 g, é colocado em
+uma proveta contendo 50 mL de água. Após a imersão desse objeto, o
+volume medido na proveta é de 52 mL. Determine a densidade, em g/mL, do
+objeto de metal.</li>
+</ol>
+</section>
+
+<section id="section-1" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<p>Questão 02. Relacione o método de separação de misturas com a
+propriedade utilizada no processo de separação.</p>
+<p>I. Decantação II. Destilação III. Extração por solvente</p>
+<p>A. Solubilidade</p>
+<p>B. Densidade</p>
+<p>C. Temperatura de ebulição</p>
+</section>
+
+<section id="section-2" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<p>Questão 03. Analise as afirmativas a seguir e julgue como verdadeiro
+(V) ou falso (F).</p>
+<p>( ) Na filtração o sólido e o líquido são separados pela diferença do
+tamanho das partículas.</p>
+<p>( ) A centrifugação é um processo de decantação acelerado pela força
+da gravidade.</p>
+<p>( ) A separação na cromatografia é realizada pela interação dos
+componentes da mistura com a fase móvel e a fase estacionária.</p>
+</section>
+
+<section id="section-3" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<ol start="4" type="1">
+<li class="fragment">(Vunesp) Na preparação do café, a água quente entra
+em contato com o pó e é separada no coador. As operações envolvidas
+nessa separação são, respectivamente:</li>
+</ol>
+<ol type="a">
+<li class="fragment"><p>destilação e decantação.</p></li>
+<li class="fragment"><p>filtração e destilação.</p></li>
+<li class="fragment"><p>destilação e coação.</p></li>
+<li class="fragment"><p>extração e filtração.</p></li>
+<li class="fragment"><p>extração e decantação.</p></li>
+</ol>
+</section>
+
+<section id="section-4" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<ol start="5" type="1">
+<li class="fragment">(Unirio) Uma mistura formada por gasolina, água,
+serragem e sal de cozinha pode ser separada nos seus diversos
+componentes seguindo-se as seguintes etapas:</li>
+</ol>
+<ol type="a">
+<li class="fragment"><p>filtração, decantação e destilação.</p></li>
+<li class="fragment"><p>catação e decantação.</p></li>
+<li class="fragment"><p>sublimação e destilação.</p></li>
+<li class="fragment"><p>prensagem e decantação.</p></li>
+<li class="fragment"><p>destilação e decantação.</p></li>
+</ol>
+</section>
+
+<section id="section-5" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<ol start="6" type="1">
+<li class="fragment">Cesgranrio) Numa das etapas do tratamento da água
+que abastece uma cidade, a água é mantida durante um certo tempo em
+tanques para que os sólidos em suspensão se depositem no fundo. A essa
+operação denominamos:</li>
+</ol>
+<ol type="a">
+<li class="fragment"><p>filtração.</p></li>
+<li class="fragment"><p>sedimentação.</p></li>
+<li class="fragment"><p>sifonação.</p></li>
+<li class="fragment"><p>centrifugação.</p></li>
+<li class="fragment"><p>cristalização.</p></li>
+</ol>
+</section>
+
+<section id="section-6" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:30.0%" /></h2>
+<ol start="7" type="1">
+<li class="fragment">(Unifor) Um sólido A está totalmente dissolvido num
+líquido B. É possível separar o solvente B da mistura por meio de
+uma:</li>
+</ol>
+<ol type="a">
+<li class="fragment"><p>centrifugação.</p></li>
+<li class="fragment"><p>sifonação.</p></li>
+<li class="fragment"><p>decantação.</p></li>
+<li class="fragment"><p>filtração.</p></li>
+<li class="fragment"><p>destilação.</p></li>
+</ol>
+</section>
+
+<section id="section-7" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:20.0%" /></h2>
+<ol start="8" type="1">
+<li class="fragment">(UnB) Julgue os itens a seguir, marcando C para os
+corretos e E para os errados.</li>
+</ol>
+<p>1)A evaporação permite a separação de dois líquidos bastante
+voláteis. 2)É possível a separação de um material homogêneo
+líquido-líquido por destilação fracionada. 3)A separação de componentes
+do petróleo é feita com base na diferença entre as respectivas
+temperaturas de ebulição. 4)O princípio da destilação fracionada
+fundamenta-se na diferença de solubilidade dos sólidos de um
+material.</p>
+</section>
+
+<section id="section-8" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:20.0%" /></h2>
+<ol start="8" type="1">
+<li class="fragment">(UFRGS) Um sistema heterogêneo bifásico é formado
+por três líquidos diferentes A, B e C. Sabe-se que:</li>
+</ol>
+<p>A e B são miscíveis entre si; C é imiscível com A e com B; A é mais
+volátil que B. Com base nessas informações, os métodos mais adequados
+para separar os três líquidos são:</p>
+<ol type="a">
+<li class="fragment">centrifugação e decantação.</li>
+<li class="fragment">decantação e fusão fracionada.</li>
+<li class="fragment">filtração e centrifugação.</li>
+<li class="fragment">filtração e destilação fracionada.</li>
+<li class="fragment">decantação e destilação fracionada.</li>
+</ol>
+</section>
+
+<section id="section-9" class="title-slide slide level2">
+<h2><img data-src="Figuras/atividades.jpg" style="width:20.0%" /></h2>
+<ol start="9" type="1">
+<li class="fragment">(Cairu) Sobre processos de separação de materiais,
+indique a alternativa correta.</li>
+</ol>
+<ol type="a">
+<li class="fragment">Coar café, um processo de separação de materiais, é
+um fenômeno físico.</li>
+<li class="fragment">Fase de um sistema são os componentes que formam
+esse sistema.</li>
+<li class="fragment">Um dos processos frequentemente usados para separar
+água do mar do sal é a filtração.</li>
+<li class="fragment">Quando as substâncias passam do estado sólido para
+o líquido, há evidência de que ocorreu reação química.</li>
+<li class="fragment">A destilação fracionada é um processo usado
+frequentemente para se separar dois sólidos.</li>
+</ol>
+</section>
+    </div>
+  </div>
+
+  <script src="LigacoesQuimicas_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="LigacoesQuimicas_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: true,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        menu: {
+   
+          numbers: true,
+    
+    
+    
+    
+    
+    
+ 
+          custom: false,
+          themes: false,
+          transitions: false
+        },
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'LigacoesQuimicas_files/reveal.js-3.3.0.1/plugin/zoom-js/zoom.js', async: true },
+          { src: 'LigacoesQuimicas_files/reveal.js-3.3.0.1/plugin/menu/menu.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "LigacoesQuimicas_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

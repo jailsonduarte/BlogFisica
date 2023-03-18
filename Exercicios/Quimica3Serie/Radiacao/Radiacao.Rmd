@@ -1,0 +1,80 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12 pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+- \usepackage{chemmacros}
+- \usepackage{chemmacros}
+- \chemsetup{modules=all}
+- \chemsetup{formula=chemformula}
+---
+
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 3ª ANO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+# \centering Leis da Radioatividade
+
+
+**01.** Para cada um dos radionuclídeos mostrados a seguir, escreva a equação que representa a emissão radioativa. Consulte a tabela periódica.
+
+a) \ch{_{222}^{86}Rn}, um $\alpha$-emissor presente no ar.
+
+b) \ch{_{235}^{92}U}, um $\alpha$-emissor em alguns animais.
+
+c) \ch{_{230}^{90}Th}, outro $\alpha$-emissor presente no ar.
+
+d) \ch{_{40}^{19}K}, um $\beta$-emissor presente na água mineral e também em nosso organismo.
+
+
+
+**02.** Uma série radioativa consiste em um conjunto de radioisótopos que são formados a partir de um radioisótopo inicial, pela sucessiva emissão de partículas alfa e beta. Na série radioativa que se inicia com o \ch{_{237}^{93}Np} termina com o \ch{_209^{84}Po}, qual o número de partículas $\alpha$ e $\beta$ emitidas?
+
+
+**03.** Calcule x e y na equação a seguir:
+
+a) \ch{_{222}^{86}Rn -> x _{2}^{4}$\alpha$ + y _{-1}^{0}$\beta$ + _{214}^{83}Rn}
+
+**04.** Qual o volume de um balão contendo 44,0 g de gás hélio, utilizado em parques de diversões ou em propaganda, num dia em que a temperatura é 305 K, e a pressão do balão é 2,50 atm? (Dados: R = 0,082 atm L mol–1 K–1; massa molar do He = 4,0 g \ch{mol^{–1}}.
+ 
+**05.** Quantas partículas $\alpha$ e $\beta$ são emitidas na transformação do  \ch{_{222}^{86}Ra} em \ch{_{208}^{82}PB}?
+
+
+**06.** A emissão exclusiva de ondas gama por um núcleo afeta o número atômico e o número de massa? Po quê?
+
+
+**07.** Uma equipe de cientistas acredita que seja possível sintetizar um novo elemento químico bombardeando bismuto com zinco, de acordo com a equação: \ch{_{202}^{83}Bi + _{64}^{30}Zn -> _{A}^{Z}X + n}.
+
+a) Determine os valores de A e Z.
+
+b) Em que família da tabela periódica esse elemento deve ser colocado?
+
+
+**08.**  Quando um átomo do isótopo 228 do tório libera uma partícula alfa (núcleo de
+hélio com 2 prótons e número de massa 4), transforma-se em um átomo de rádio, de acordo com a equação:
+\ch{_{228}^{X}Th -> _{Y}^{88}Ra + $\alpha$}. Determine os valores de X e Y 
+
+
+**09.** Sabendo-se que o Urânio utilizado em uma usina nuclear, como a de Fukushima, no Japão, é um material que sofre decaimento radioativo a partir da emissão de partículas alfa \ch{_{2}^{4}$\alpha$}, qual seria a massa do novo elemento formado a partir da emissão de uma partícula alfa pelo Urânio \ch{_{92}^{235}U}?

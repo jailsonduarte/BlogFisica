@@ -3,12 +3,12 @@ title: ''
 author: ''
 encoding: UTF-8
 output:
+  pdf_document: default
   html_document:
     df_print: paged
     css: css/estilo.css
     includes:
       in_header: header.html
-  pdf_document: default
 geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
 fontsize: 12pt
 header-includes:
@@ -23,12 +23,14 @@ header-includes:
 ---
 
 
-![](imagens///logoGetulio.jpg){width="100%"}
+![](imagens///logoIvan.jpg){width="100%"}
 
 
 | **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
-| **TURMA:** 1ª Série Ensino Médio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
-| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+| **TURMA:** CICLO V &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 # \centering Substâncias e Misturas
 

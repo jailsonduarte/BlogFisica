@@ -1,0 +1,125 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12 pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+- \usepackage{chemmacros}
+- \usepackage{chemmacros}
+- \chemsetup{modules=all}
+- \chemsetup{formula=chemformula}
+---
+
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Química &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 2ª ANO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+# \centering TERMOQUÍMICA
+
+
+**01.** Em relação aos aspectos energéticos envolvidos nas transformações químicas, pode-se afirmar:
+
+a) a queima da parafina de uma vela exemplifica um processo endotérmico.
+
+b) a vaporização da água de uma piscina pela ação da luz solar exemplifica um processo endotérmico.
+
+c) a combustão do álcool hidratado em motores de automóveis exemplifica um processo endotérmico.
+
+d) a formação de um iceberg a partir da água do mar exemplifica um processo endotérmico.
+
+e) o valor de $\Delta H$ de uma transformação depende exclusivamente do estado físico dos reagentes.
+
+
+
+**02.** Considere as afirmações a seguir, segundo a Lei de Hess.
+
+I – O calor de reação ($\Delta H$) depende apenas dos estados inicial e final do processo.
+
+II – As equações termoquímicas podem ser somadas como se fossem equações matemáticas.
+
+III – Podemos inverter uma equação termoquímica desde que se inverta o sinal de $\Delta H$.
+
+IV – Se o estado final do processo for alcançado por vários caminhos, o valor de $\Delta H$ dependerá dos estados intermediários através dos quais o sistema pode passar.
+
+Conclui-se que:
+
+a) as afirmações I e II são verdadeiras.
+
+b) as afirmações II e III são verdadeiras.
+
+c) as afirmações I, II e III são verdadeiras.
+
+d) todas são verdadeiras.
+
+e) todas são falsas. 
+
+
+
+**03.** No processo exotérmico, o calor é cedida ao meio ambiente, enquanto no processo
+endotérmico o calor é absorvido do ambiente. Quando um atleta sofre uma contusão, é
+necessário resfriar, imediatamente, o local com emprego de éter; quando o gelo é
+exposto à temperatura ambiente, liquefaz-se. A evaporação do éter e a fusão do gelo são, respectivamente, processos:
+
+a) endotérmico e endotérmico.
+
+b) exotérmico e exotérmico.
+
+c) endotérmico e exotérmico.
+
+d) exotérmico e endotérmico.
+
+e) isotérmico e endotérmico.
+
+**04.** Considere os processos a seguir:
+
+I. Queima do carvão.
+
+II. Fusão do gelo à temperatura de 25ºC.
+
+III. Combustão da madeira.
+
+a) apenas o primeiro é exotérmico.
+
+b) apenas o segundo é exotérmico.
+
+c) apenas o terceiro é exotérmico.
+
+d) apenas o primeiro é endotérmico.
+
+e) apenas o segundo é endotérmico.
+
+
+**05.** A Termoquímica estuda a energia e o calor associados a reações químicas e/ou transformações físicas de substâncias ou misturas. Com relação a conceitos, usados nessa área da química, assinale a alternativa incorreta.
+
+A) 	A quebra de ligação química é um processo endotérmico. Já a formação de ligações são processos exotérmicos. Dessa forma, a variação de entalpia para uma reação química vai depender do balanço energético entre quebra e formação de novas ligações.
+
+B) 	A variação de energia que acompanha qualquer transformação deve ser igual e oposta à energia que acompanha o processo inverso.
+
+C) 	A entalpia H de um processo pode ser definida como o calor envolvido no mesmo, medido à pressão constante. A variação de entalpia do processo permite classificá-lo como endotérmico, quando absorve energia na forma de calor, ou exotérmico quando libera energia.
+
+D) 	O fenômeno de ebulição e o de fusão de uma substância são exemplos de processos físicos endotérmicos.
+
+E) 	A lei de Hess afirma que a variação de energia deve ser diferente, dependendo se um processo ocorrer em uma ou em várias etapas.
+
+

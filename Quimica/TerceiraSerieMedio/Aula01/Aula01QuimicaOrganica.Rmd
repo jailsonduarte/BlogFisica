@@ -2,7 +2,7 @@
 title: |
   <a id="home" href="../../../index.html"><img class="logo" src="logo//logo.jpg"  alt="Home"></a>
         <br>
-   <small>Química 2ª Série</small>
+   <small>Química 3ª Série</small>
    <br>
   <small>Aula 01: Fundamentos de Química Orgânica</small>
 author: "Jailson Duarte <br>" 

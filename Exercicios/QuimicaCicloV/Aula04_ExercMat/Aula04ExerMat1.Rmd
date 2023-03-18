@@ -1,0 +1,102 @@
+---
+title: ''
+author: ''
+encoding: "UTF-8"
+output:
+  word_document: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoMD.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+![](imagens///logoMD.jpg){width="90%"}
+
+
+| **COMPONENTE CURRICULAR:** Física &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** CICLO V &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+# \centering MATEMÁTICA
+
+
+**01.** A representação correta para o algarismo romano MMDCCCLXXVI é:
+
+A)27.456 &nbsp; &nbsp; B) 2.875 &nbsp; &nbsp;  C) 12.445 &nbsp; &nbsp;  D) 2.876 &nbsp; &nbsp; E) 28.513 
+\vspace{1cm}
+
+**02.** Ao observarmos a bandeira do Brasil encontramos três
+formas geométricas. São elas:
+
+![](imagens///banderiraBrasil.jpg){width="40%"}
+
+A) Quadrado, círculo e triângulo.
+
+B) Reta, trapézio e triângulo.
+
+C) Círculo, pentágono e losango.
+
+D) Losango, círculo e retângulo.
+
+E) Losango, quadrado e triângulo.
+
+
+**03.** Alberto sempre se atrasa nos encontros com sua namorada. Numa semana em que eles combinaram de sair três vezes, sua namorada registrou o tempo de atraso dele. No primeiro encontro ele se atrasou 22 minutos. No segundo, meia hora. Já no terceiro, ele se atrasou 44 minutos. Ao todo, o tempo de atraso de Alberto, nesses encontros, foi de:
+
+A)1 hora e meia &nbsp; &nbsp; B) 1 hora e 34 minutos C) 86 minutos
+
+D)91 minutos &nbsp; &nbsp; E) 1 hora e 36 minuto
+
+
+\vspace{1cm}
+
+**04.** Agripino tinha um pacote com 50 chocolates. Distribuiu 3 para cada neto; além de dar um a sua esposa Clotilde. Sobraram 7 chocolates no final dessa distribuição. Logo, podemos concluir que Agripino tem quantos netos?
+
+A) 3 &nbsp; &nbsp; B) 7 &nbsp; &nbsp; C) 14 &nbsp; &nbsp; D) 20 &nbsp; &nbsp; E) 5
+
+\vspace{0.8cm}
+
+**05.** Um número, cujo antecessor é 234, é multiplicado por 3 e somado ao sucessor de 132. Após a realização desses cálculos, conclui-se que o resultado final se encontra na alternati va:
+
+A) 832 &nbsp; &nbsp; B) 833 &nbsp; &nbsp; C) 835 &nbsp; &nbsp; D) 837 &nbsp; &nbsp; E) 838
+
+
+**06.** Em uma hora, uma tartaruga percorreu 1.874 milímetros, e manteve a constância na sua caminhada. Podemos concluir que em duas horas ela percorre, em metros, o igual a:
+
+A) 1,874 &nbsp; &nbsp; B) 3,748 &nbsp; &nbsp; C) 18,74 &nbsp; &nbsp; D) 37,48 &nbsp; &nbsp; E) 187,4
+
+**07** Marcelo trabalha 22 dias por mês, como garçom. Como é um restaurante frequentado por pessoas muito ricas, ele recebe uma boa quantia em gorjetas. Em um determinado mês ele calculou que recebeu R\$ 22,70 por dia de trabalho, somente em gorjetas. Sabendo que ele recebeu, além das gorjetas, o seu salário fixo, de R\$ 705,60 e uma gratificação (por bom trabalho) de R$ 230,00, calculamos que ao final recebeu um valor total de:
+
+A)R\$ 1434,00 &nbsp; &nbsp; B) R$ 1434,10 &nbsp; &nbsp; C) R\$ 1434,30
+
+D)R\$ 1434,50 &nbsp; &nbsp; E) R\$ 1435,00
+
+\vspace{0.8cm}
+**08**  O resultado da expressão numérica $725 \div 5 + 22 + 15 \times 12  + 16=$, é:
+
+A) 234 &nbsp; &nbsp; B) 143 &nbsp; &nbsp; &nbsp; &nbsp; C) 363 &nbsp; &nbsp; D) 608 &nbsp; &nbsp; E) 567
+
+
+**09** Um halterofilista faz diversos exercícios durante o dia. Ele faz 6 séries de 50 repetições (6 x 50) de exercícios abdominais. Já o resto dos exercícios (que totalizam 9), ele faz em 4 séries de 8 repetições (4 x 8) cada uma. Ao todo, quantas repetições ele faz em um dia?
+
+A) 588 &nbsp; &nbsp; B) 589 &nbsp; &nbsp; C) 590 &nbsp; &nbsp; D) 591 &nbsp; &nbsp; E) 592
+
+**10** A escola Menino Jesus decidiu fazer um passeio com seus
+alunos para um museu. Precisou alugar três ônibus para acomodá-los confortavelmente. A escola levou 135 alunos e três
+professores, quantos foram em cada ônibus, se foi dividido
+igualmente?
+
+A) 35  &nbsp; &nbsp; B) 46 &nbsp; &nbsp; C) 45 &nbsp; &nbsp;  D) 50 &nbsp; &nbsp; E) 28
