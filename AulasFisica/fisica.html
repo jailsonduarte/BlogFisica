@@ -17,12 +17,13 @@
 
         </div>
 
+       
         <div id="area-menu">
             <a href="../index.html">Home</a>
-            <a href="../Getulio/getulio.html">Getúlio Vargas</a>
-            <<a href="../Margarida/margarida.html">Margarida Dias</a>
-            <a href="exercicios.html">Ivan Bichara</a>
-            <a href="pesquisa.html">Pesquisas</a>
+            <a href="../AulasFisica/fisica.html">Física</a>
+            <a href="../AulasQuimica/quimica.html">Química</a>
+            <a href=../exercicios.html">Exercícios</a>
+            <a href="../pesquisa.html">Pesquisas</a>
 
         </div>
         
@@ -35,14 +36,30 @@
             
             <!--Abertura Postagem1-->
             <div class="postagem">
-                <H1>ECIT Margarida Dias</H1>
+                <H1><img width="620px" src="../imagens/img17.png" alt="Fisica" class="center"></a></H1>
+                <br>
 
-                <H2>Física CICLO V</H2>
-               <span class="data-postage">Profº Jailson Duarte</span> 
+                <H2>Física 1ª Série</H2>
+                
+                <!--Inserindo Data da Postagem-->
+
+                <p id="data"></p>
+
+                    <script>
+                        var dataAtual = new Date();
+                        var dia = dataAtual.getDate();
+                        var mes = dataAtual.getMonth() + 1; // Lembre-se de que o mês começa em 0
+                        var ano = dataAtual.getFullYear();
+                        var dataFormatada = dia + '/' + mes + '/' + ano;
+                        document.getElementById('data').innerHTML = dataFormatada;
+                    </script>
+
+               
+
                <a href="../Física/AulaFisicaEjaV.html">
                <img width="620px" src="../imagens/fisicaMd.png" alt="imagem2" class="center"></a>
                <p>
-                Fala Galerinha da Química! Acessem o material da nossa Aula. Bons Estudos.  
+                Fala Galerinha! Acessem o material da nossa Aula. Bons Estudos.  
 
                </p>
                
