@@ -1,0 +1,63 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Física &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 1ª Série Ensino Médio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+# \centering Termologia e Escalas Termométricas
+
+
+
+**01.** Como a teoria cinético-molecular da matéria define a temperatura de um gás?
+\vspace{1cm}
+
+
+**02.** A televisão noticia que a temperatura hoje chegará a $104^\circ F$. Qual o valor dessa temperatura na escala Celsius?
+
+\vspace{1cm}
+
+
+**03.** Uma pessoa está com temperatura corporal de $36^\circ C$. Coloca as mãos em um recipiente com água a uma temperatura de $96,8^\circ F$. Sabendo que só haverá troca de calor entre a pessoa e a água se elas tiverem as temperaturas diferentes, verifique se houve troca de calor ou não. 
+
+\vspace{1cm}
+
+**04.** Usando-se as definições de Temperatura nas escalas Celsius, Kelvin e Fahrenheit, converta:
+
+a) 20°C para Fahrenheit
+\vspace{1cm}
+
+b) 95°F para Celsius 
+\vspace{1cm}
+
+c) 500 K para Celsius
+\vspace{1cm}
+
+d) 37°C para Kelvin.

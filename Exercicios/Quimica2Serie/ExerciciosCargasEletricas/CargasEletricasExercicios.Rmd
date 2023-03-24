@@ -1,0 +1,65 @@
+---
+title: ''
+author: ''
+encoding: UTF-8
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    css: css/estilo.css
+    includes:
+      in_header: header.html
+geometry: left=2cm,right=1.5cm,top=1cm,bottom=1.5cm
+fontsize: 12pt
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center} \includegraphics[width=6in,height=4in]{imagens//logoGetulio.jpg}\LARGE\\}
+- \posttitle{\end{center}}
+- \usepackage{colortbl}
+- \makeatletter
+- \setlength{\@fptop}{0pt}
+- \setlength{\@fpbot}{0pt plus 1fil}
+- \makeatother
+---
+
+
+![](imagens///logoGetulio.jpg){width="100%"}
+
+
+| **COMPONENTE CURRICULAR:** Física &nbsp; &nbsp; &nbsp; **DATA**: \_\_\_\_\_\/\_\_\_\_/\_\_\_\_\_\_                                                              
+| **TURMA:** 3ª Série Ensino Médio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  **PROFESSOR:** Jailson Duarte                                                                                                        
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+| **ALUNO(A):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+# \centering Processos de Eletrização
+
+
+
+**01.** Sabe-se que a carga do elétron vale $– 1,6 \times 10^{-19}C$. Considere um bastão de vidro que foi atritado e perdeu elétrons, ficando positivamente carregado com a carga de $5,0 \times 10^{-6}C$. Qual o número de elétrons que foi retirados do bastão?
+
+
+\vspace{1cm}
+
+**02.** Duas pequenas esferas metálicas idênticas, A e B, localizadas no vácuo, estão carregadas com cargas $Q_A = -2Q$ e $Q_B = +2Q$. As esferas são postas em contato através de pinças isolantes ideais e, após atingirem o equilíbrio eletrostático, são separadas. Após a separação, quais são os valores de $Q_A$ e $Q_B$ após o contato?
+
+\vspace{1cm}
+
+**03.** Um corpo possui $5 \times 10^19$ prótons e $4 \times 10^19$ elétrons.
+Considerando que a carga elementar é igual a $1,6·10^{-19}$ C, qual a carga desse corpo?
+
+\vspace{1cm}
+
+**04.** Duas pequenas esferas idênticas estão eletrizadas com cargas de $6,0 \mu C$ e $-10 \mu C$, respectivamente. Colocando-se as esferas em contato, qual o número de elétrons que passam de uma esfera para outra?
+
+\vspace{1cm}
+
+**05.** Duas partículas de cargas elétricas $Q_1 = 4,0 \times  10^{-16} C$ e $q_2 = 6,0 \times 10^{-16} C$ estão separadas no vácuo por uma distância de $3,0 \times10^{-9}m$. Sendo $k = 9,0 \times 10^9 N.m^2/C^2$. Determine a intensidade da força de interação entre elas.
+
+\vspace{1cm}
+
+**06.** Calcule a intensidade da força elétrica de repulsão entre duas cargas puntiformes $3 \times 10^{-5} C$ e $5 \times 10^{-6} C$ que se encontram no vácuo, separadas por uma distância de 15 cm.
+
+\vspace{1cm}
+
+**07.** Estando duas cargas elétricas $Q$ idênticas separadas por uma distância de $4m$, determine o valor destas cargas sabendo que a intensidade da força entre elas é de $200 N$.
+
